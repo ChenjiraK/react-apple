@@ -1,0 +1,21 @@
+.snap-carousel {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.snap-carousel > div {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  margin-right: 10px;
+}
+
+.snap-carousel::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for a cleaner look */
+}
+.hide-scroll {
+  &::-webkit-scrollbar {
+      display: none;
+      width: 0px;
+  }
+}
