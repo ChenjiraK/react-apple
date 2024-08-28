@@ -13,9 +13,19 @@ module.exports = {
       colors: {
         'primary-color': '#424245',
         'gray-f2f2f2': '#f2f2f2',
+        'gray-d0d0d0': '#d0d0d0',
+        'gray-7d7d7d': '#7d7d7d',
+        'gray-121212': '#121212',
+        'bagde-bf4800': '#bf4800',
       },
       width: {
         '1220px': '1220px',
+      },
+      minWidth: {
+        '820px': '820px',
+      },
+      spacing: {
+        '1px': '1px',
       }
     },
   },

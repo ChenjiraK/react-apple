@@ -9,7 +9,7 @@ import { FontAwesomeIcon as Icon } from '@fortawesome/react-fontawesome';
 function Herder(){
     return(
         <header className='flex justify-center w-full text-sm bg-white border-b pb-5'>
-            <div className='w-full max-w-6xl'>
+            <div className='w-main-page'>
                 <div className={"flex justify-center gap-4 h-24 p-3 items-center"}>
                     <PartnerImage />
                     <PremiumPartnerLogo />
