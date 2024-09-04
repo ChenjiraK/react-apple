@@ -25,11 +25,12 @@ const SlideCategory = () => {
   ];
   return (
     <div>
+      <div className="text-4xl font-semibold pl-9">View all Apple products.</div>
       <Slide>
         {categoryItems.map((category) => (
           <div
             key={category.id}
-            className="flex-shrink-0"
+            className="flex-shrink-0 ml-5"
           >
             <CategoryItem key={category.id} item={category}></CategoryItem>
           </div>

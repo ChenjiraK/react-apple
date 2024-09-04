@@ -10,7 +10,8 @@ const Slide = ({ children }) => {
     pages,
     activePageIndex,
   } = useSnapCarousel();
-  
+
+  // eslint-disable-next-line
   const isCanNext = useMemo(() => {
       if(activePageIndex >= pages.length - 1) {
         return false;
@@ -18,6 +19,7 @@ const Slide = ({ children }) => {
       return true;
   });
 
+  // eslint-disable-next-line
   const isCanPrev = useMemo(() => {
       if(activePageIndex === 0) {
         return false;
@@ -32,15 +34,15 @@ const Slide = ({ children }) => {
     prev()
   }
   return (
-    <div className="flex justify-center px-16">
+    <div className="flex justify-centerpx-16">
       <div className="border-r p-3 h-20 self-center mr-5 flex cursor-pointer">
         {isCanPrev && 
           <Icon className="self-center text-gray-400" icon="fa-solid fa-chevron-left" onClick={() => handlePrev()} />
         }
       </div>
-      <div className="my-12 w-main-page">
+      <div className="w-main-page">
         <div
-          className="flex gap-x-10 overflow-x-auto pt-6 hide-scroll"
+          className="flex overflow-x-auto pt-6 hide-scroll"
           ref={scrollRef}
         >
           { children }

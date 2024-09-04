@@ -1,37 +1,26 @@
-import ProductItem from "./Card/ProductItem";
+import CardDetailItem from "./Card/CardDetailItem";
 import Slide from './Layout/Slide';
 
 const SlideProduct = () => {
   const productItems = [
-    { id: 'cat_1', title: 'Mac', price: '$5199', imgSrc: 'https://www.appstaging.dev/cdn/shop/files/mac_9dbb5d65-8ce8-4515-b0ea-29624f76c18b_1.png?v=1701794541' },
-    { id: 'cat_2', title: 'iPhone', price: '$5799', imgSrc: 'https://www.appstaging.dev/cdn/shop/files/2.LOB-iPhone_0fb05017-ff20-42a7-a778-6442d40c10db.png?v=1701796526' },
-    { id: 'cat_3', title: 'iPad', price: '$5599', imgSrc: 'https://www.appstaging.dev/cdn/shop/files/lob-stripe-Ipad-050724-2.png?v=1715098480' },
-    { id: 'cat_4', title: 'Watch', price: '$5799', imgSrc: 'https://www.appstaging.dev/cdn/shop/files/4.LOB-Watch.png?v=1695308897&width=90//www.appstaging.dev/cdn/shop/files/4.LOB-Watch.png?v=1695308897&width=180//www.appstaging.dev/cdn/shop/files/4.LOB-Watch.png?v=1695308897&width=375//www.appstaging.dev/cdn/shop/files/4.LOB-Watch.png?v=1695308897&width=400' },
-    { id: 'cat_5', title: 'Music', price: '$5169', imgSrc: 'https://www.appstaging.dev/cdn/shop/files/5.LOB-Music.png?v=1695308897&width=90//www.appstaging.dev/cdn/shop/files/5.LOB-Music.png?v=1695308897&width=180//www.appstaging.dev/cdn/shop/files/5.LOB-Music.png?v=1695308897&width=375//www.appstaging.dev/cdn/shop/files/5.LOB-Music.png?v=1695308897&width=400' },
-    { id: 'cat_6', title: 'TV & Home', price: '$5129', imgSrc: 'https://www.appstaging.dev/cdn/shop/files/6.LOB-TV_Home.png?v=1695308897' },
-    { id: 'cat_7', title: 'Accessories', price: '$5029', imgSrc: 'https://www.appstaging.dev/cdn/shop/files/accessories-iphone.png?v=1709565246' },
-    { id: 'cat_8', title: 'Entertainment', price: 'See offers', imgSrc: 'https://www.appstaging.dev/cdn/shop/files/8.LOB-Entertainment.png?v=1695308897' },
-    { id: 'cat_9', title: 'Airtag', price: '$5029', imgSrc: 'https://www.appstaging.dev/cdn/shop/files/9.LOB-AirTag.png?v=1695308897' },
-
-    { id: 'cat_11', title: 'Mac', price: '$5199', imgSrc: 'https://www.appstaging.dev/cdn/shop/files/mac_9dbb5d65-8ce8-4515-b0ea-29624f76c18b_1.png?v=1701794541' },
-    { id: 'cat_21', title: 'iPhone', price: '$5799', imgSrc: 'https://www.appstaging.dev/cdn/shop/files/2.LOB-iPhone_0fb05017-ff20-42a7-a778-6442d40c10db.png?v=1701796526' },
-    { id: 'cat_31', title: 'iPad', price: '$5599', imgSrc: 'https://www.appstaging.dev/cdn/shop/files/lob-stripe-Ipad-050724-2.png?v=1715098480' },
-    { id: 'cat_41', title: 'Watch', price: '$5799', imgSrc: 'https://www.appstaging.dev/cdn/shop/files/4.LOB-Watch.png?v=1695308897&width=90//www.appstaging.dev/cdn/shop/files/4.LOB-Watch.png?v=1695308897&width=180//www.appstaging.dev/cdn/shop/files/4.LOB-Watch.png?v=1695308897&width=375//www.appstaging.dev/cdn/shop/files/4.LOB-Watch.png?v=1695308897&width=400' },
-    { id: 'cat_51', title: 'Music', price: '$5169', imgSrc: 'https://www.appstaging.dev/cdn/shop/files/5.LOB-Music.png?v=1695308897&width=90//www.appstaging.dev/cdn/shop/files/5.LOB-Music.png?v=1695308897&width=180//www.appstaging.dev/cdn/shop/files/5.LOB-Music.png?v=1695308897&width=375//www.appstaging.dev/cdn/shop/files/5.LOB-Music.png?v=1695308897&width=400' },
-    { id: 'cat_61', title: 'TV & Home', price: '$5129', imgSrc: 'https://www.appstaging.dev/cdn/shop/files/6.LOB-TV_Home.png?v=1695308897' },
-    { id: 'cat_71', title: 'Accessories', price: '$5029', imgSrc: 'https://www.appstaging.dev/cdn/shop/files/accessories-iphone.png?v=1709565246' },
-    { id: 'cat_81', title: 'Entertainment', price: 'See offers', imgSrc: 'https://www.appstaging.dev/cdn/shop/files/8.LOB-Entertainment.png?v=1695308897' },
-    { id: 'cat_91', title: 'Airtag', price: '$5029', imgSrc: 'https://www.appstaging.dev/cdn/shop/files/9.LOB-AirTag.png?v=1695308897' },
+    { id: 'product_1', badgeLabel: 'NEW' ,name: 'MacBook Air M3', detail:'Lean. Mean. M3 machine.', price: '$5199', imgSrc: 'https://cdn.shopify.com/s/files/1/0818/1304/5566/files/MacBook_Air_15-in_M3_Chip_Midnight_Hero_Horizontal_Screen__USEN.jpg?v=1709561887&width=256' },
+    { id: 'product_3', badgeLabel: 'NEW' ,name: 'Watch Accessories', detail:'Shop watch accessories.', price: '$5025', imgSrc: 'https://cdn.shopify.com/s/files/1/0818/1304/5566/files/What_s_New_Watch-Accessories.png?v=1695309067&width=256' },
+    { id: 'product_4', badgeLabel: 'NEW' ,name: 'iPhone Accessories', detail:'Shop iPhone accessories.', price: '$5059', imgSrc: 'https://cdn.shopify.com/s/files/1/0818/1304/5566/files/iphone-15-silicone-case-with-magsafe-pink_MWN93_AV1_26f2e0aa-851c-4f55-9edc-b590f82db638.png?v=1709585453&width=256' },
+    { id: 'product_5', badgeLabel: 'NEW' ,name: 'iPad Accessories', detail:'Shop iPad accessories', price: '$5099', imgSrc: 'https://cdn.shopify.com/s/files/1/0818/1304/5566/files/iPad_Pro_13-inch_M4_Chip_Wi-Fi_Magic_Keyboard_Pro_Apple_Pencil_Pro_Hero_Horizontal_Screen__USEN.png?v=1715100290&width=256' },
+    { id: 'product_6', badgeLabel: 'NEW' ,name: 'Apple Pencil Pro', detail:'Shop Apple Pencil Pro.', price: '$5129', imgSrc: 'https://cdn.shopify.com/s/files/1/0818/1304/5566/files/Apple_Pencil_Pro_PDP_Image_Position-2__en-US.png?v=1715101422&width=256' },
+    { id: 'product_7', badgeLabel: 'NEW' ,name: 'iPad Air M2', detail:'Fresh Air.', price: ' From $5599', imgSrc: 'https://cdn.shopify.com/s/files/1/0818/1304/5566/files/iPad_Air_M2_Chip_Cellular_Hero_Vertical_Screen__USEN.png?v=1715100498&width=256' },
+    { id: 'product_8', badgeLabel: 'NEW' ,name: 'iPad Pro M4', detail:'Thinpossible', price: 'From $5999', imgSrc: 'https://www.appstaging.dev/cdn/shop/files/iPad_Pro_13-inch_M4_Chip_Cellular_Hero_Vertical_Screen__USEN.png?v=1715099322&width=256' },
   ];
   return (
     <div>
+      <div className="text-4xl font-semibold pl-9 mt-6">See what’s new.</div>
       <Slide>
         {productItems.map((product) => (
           <div
             key={product.id}
-            className="flex-shrink-0"
+            className="flex-shrink-0 ml-6"
           >
-            <ProductItem key={product.id} item={product}></ProductItem>
+            <CardDetailItem key={product.id} item={product}></CardDetailItem>
           </div>
         ))}
       </Slide>
