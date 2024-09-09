@@ -1,6 +1,6 @@
 import BadgeLabel from "../Label/BadgeLabel";
 
-const TextItem = ({ item }) => {
+const CardTextItem = ({ item }) => {
   if (!item) {
     return null;
   }
@@ -13,4 +13,4 @@ const TextItem = ({ item }) => {
   );
 };
 
-export default TextItem;
+export default CardTextItem;

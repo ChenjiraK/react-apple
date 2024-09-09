@@ -1,6 +1,6 @@
 import BadgeLabel from "../Label/BadgeLabel";
 
-const ProductItem = ({ item }) => {
+const CardDetailItem = ({ item }) => {
   if (!item) {
     return null;
   }
@@ -20,4 +20,4 @@ const ProductItem = ({ item }) => {
   );
 };
 
-export default ProductItem;
+export default CardDetailItem;
