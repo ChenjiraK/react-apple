@@ -17,7 +17,7 @@ const CardThumbnailHorizonLeft = ({ item }) => {
                 <div className="flex justify-center">
                     <div className="text-center self-center">
                         <BadgeLabel text={item.badgeLabel} color={item.badgeColor}></BadgeLabel>
-                        <h3>{item.name}</h3>
+                        <h2>{item.name}</h2>
                         <p className='text-sm'>{item.detail}</p>
                         <p className='text-sm pb-4'>From {item.price}</p>
                         <MainButton>Buy Now</MainButton>

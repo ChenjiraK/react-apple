@@ -12,7 +12,7 @@ const CardDetailItem = ({ item }) => {
             </div>
             <div className='flex flex-col gap-1 mt-2'>
               <BadgeLabel text={item.badgeLabel}></BadgeLabel>
-              <h3>{item.name}</h3>
+              <h2>{item.name}</h2>
               <p className='text-sm h-10 font-semibold'>{item.detail}</p>
               <p className='text-sm h-full'>From {item.price}</p>
             </div>

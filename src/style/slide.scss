@@ -1,25 +1,55 @@
 .snap-carousel {
-  display: flex;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
 }
 
 .snap-carousel > div {
-  flex: 0 0 100%;
-  scroll-snap-align: start;
-  margin-right: 10px;
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    margin-right: 10px;
 }
 
 .snap-carousel::-webkit-scrollbar {
-  display: none; /* Hide scrollbar for a cleaner look */
+    display: none; /* Hide scrollbar for a cleaner look */
 }
 .hide-scroll {
-  &::-webkit-scrollbar {
-      display: none;
-      width: 0px;
-  }
+    &::-webkit-scrollbar {
+        display: none;
+        width: 0px;
+    }
 }
 .w-slide {
-  width: calc(100% - 70px);
-  max-width: 1220px;
+    width: calc(100% - 70px);
+    max-width: 1220px;
+}
+.w-loop-slide {
+    width: 100%;
+    max-width: 1001px;
+}
+.swiper {
+  width: 100%;
+  max-width: 1001px;
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.swiper-pagination {
+  position: unset !important;
+  margin: 30px 0;
+  .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    &.swiper-pagination-bullet-active {
+      @apply bg-gray-707070;
+    }
+  }
+}
+.btn-navigation-slide {
+  @apply bg-btn-0071e3 w-12 h-12 text-white p-3 rounded-full transform -translate-y-1/2;
 }
