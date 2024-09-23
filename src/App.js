@@ -1,16 +1,23 @@
 // src/App.js (React.js)
+import Header from './components/Layout/Header'
+import Footer from './components/Layout/Footer';
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Landing from './pages/Landing';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Routes from './routes';
 
 function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Landing />} />
-      </Routes>
-    </Router>
-  );
+    return (
+        <div>
+            <Header />
+            <Router>
+                <Routes />
+            </Router>
+            <hr className='my-5'/>
+            <div className='px-20'>
+                <Footer />
+            </div>
+        </div>
+    );
 }
 
 export default App;

@@ -1,16 +1,24 @@
-// src/App.js (React.js)
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React, {useEffect} from 'react';
+import { useRoutes, useLocation } from 'react-router-dom';
+/** pages */
 import Landing from '../pages/Landing';
 
-function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Landing />} />
-      </Routes>
-    </Router>
-  );
-}
+const routes = [
+  {
+      path: '/',
+      element: <Landing />,
+  },
+];
 
-export default App;
+const Routes = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+      window.scrollTo(0, 0);
+  }, [location]);
+
+  const routing = useRoutes(routes);
+  return routing;
+};
+
+export default Routes;

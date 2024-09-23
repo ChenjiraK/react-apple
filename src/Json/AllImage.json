@@ -1,0 +1,68 @@
+{
+    "banner": [
+        {
+            "imageSrc": "https://www.appstaging.dev/cdn/shop/files/iPhonePro-banner-desktop_823b9450-f1ca-46d5-b1ec-a23fdb3f7869.jpg?v=1726000109&width=1200",
+            "name": "iphone 16",
+            "type": "banner",
+            "category": "banner"
+        },
+        {
+            "imageSrc": "https://www.appstaging.dev/cdn/shop/files/Watch-series10-desktop_2dc6d00b-57f0-40b9-b52e-448ebd441022.png?v=1726000321&width=1200",
+            "name": "watch serie 10",
+            "type": "banner",
+            "category": "banner"
+        },
+        {
+            "imageSrc": "https://www.appstaging.dev/cdn/shop/files/iphone16-banner-desktop.png?v=1726001453&width=1200",
+            "name": "iphone 16 purple",
+            "type": "banner",
+            "category": "banner"
+        },
+        {
+            "imageSrc": "https://www.appstaging.dev/cdn/shop/files/Watch-SE-banner-desktop.png?v=1726001621&width=1200",
+            "name": "watch SE",
+            "type": "banner",
+            "category": "banner"
+        }
+    ],
+    "mac": [
+        {
+            "imageSrc": "https://www.appstaging.dev/cdn/shop/files/DS_banner_Mac_Desktop_2024.png?v=1715380368&width=1200",
+            "name": "mac banner",
+            "type": "banner",
+            "category": "banner"
+        }
+    ],
+    "ipad": [
+        {
+            "imageSrc": "",
+            "name": "",
+            "type": "",
+            "category": "ipad"
+        }
+    ],
+    "iphone": [
+        {
+            "imageSrc": "",
+            "name": "",
+            "type": "",
+            "category": "iphone"
+        }
+    ],
+    "watch": [
+        {
+            "imageSrc": "",
+            "name": "",
+            "type": "",
+            "category": "watch"
+        }
+    ],
+    "music": [
+        {
+            "imageSrc": "",
+            "name": "",
+            "type": "",
+            "category": "music"
+        }
+    ]
+}

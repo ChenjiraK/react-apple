@@ -38,8 +38,18 @@ module.exports = {
       },
       spacing: {
         '1px': '1px',
+        '30px': '30px',
+        '100px': '100px',
+        '130px': '130px',
+        '246px': '246px',
         '294px': '294px',
+        '366px': '366px',
+        '610px': '610px',
+      },
+      boxShadow: {
+        'main': '0px 2px 10px rgba(0, 0, 0, 0.08)',
       }
+      // 0px 2px 10px rgba(0, 0, 0, 0.08)
     },
   },
   plugins: [],

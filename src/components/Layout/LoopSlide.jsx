@@ -31,13 +31,13 @@ const ProductCarousel = ({ children, items = [] }) => {
                     clickable: true,
                 }}
                 navigation={false}
-                mousewheel={true}
+                mousewheel={false}
                 keyboard={true}
                 loop={true}
                 modules={[Navigation, Pagination, Mousewheel, Keyboard]}
                 className="">
-                    {items.map((item) => (
-                        <SwiperSlide key={item.id}>
+                    {items.map((item, index) => (
+                        <SwiperSlide key={`${item.id}_${index}`}>
                             {React.cloneElement(children, { item })}
                         </SwiperSlide>
                     ))}
