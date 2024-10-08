@@ -6,7 +6,7 @@ const CardDetailItem = ({ item }) => {
   }
 
   return (
-      <div className='p-4 rounded-2xl bg-white shadow-main w-288px h-390px text-gray-121212'>
+      <div className='p-4 rounded-2xl bg-white shadow-main w-288px h-390px text-gray-121212 mx-1'>
             <div className='flex justify-center w-full h-44'>
                 <img className='object-contain' src={item.imgSrc} alt='example' />
             </div>

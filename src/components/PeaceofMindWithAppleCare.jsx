@@ -1,9 +1,11 @@
 import React from 'react';
+import Slide from './Layout/Slide';
+import CardDetailItem from './Card/CardDetailItem.jsx';
 
 const PeaceOfMindWithAppleCare = () => {
     const productsAppleCare = [];
     const setProductAppleCare = () => {
-        for(let i=0; i<5 ; i++) {
+        for(let i=0; i<7 ; i++) {
             productsAppleCare.push({ 
                 id: `applecare_${i}`, 
                 badgeLabel: '' ,
@@ -19,7 +21,17 @@ const PeaceOfMindWithAppleCare = () => {
     
     return (
         <div>
-            <h1 className='text-center py-8'>Peace of mind with AppleCare+</h1>
+            <h1 className='pt-8'>Peace of mind with AppleCare+</h1>
+            <Slide>
+                {productsAppleCare.map((product) => (
+                    <div
+                        key={product.id}
+                        className="flex-shrink-0 ml-6 py-7"
+                    >
+                        <CardDetailItem item={product}></CardDetailItem>
+                    </div>
+                ))}
+            </Slide>
         </div>
     );
 };

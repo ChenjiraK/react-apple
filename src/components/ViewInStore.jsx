@@ -42,17 +42,17 @@ const ViewInStore = () => {
       ];
     return (
         <div>
-            <div className="text-4xl font-semibold pl-9 mt-6">View in-store classes and support.</div>
-            <Slide>
-                {stores.map((store) => (
-                <div
-                    key={store.id}
-                    className="flex-shrink-0 ml-6 py-7"
-                >
-                    <CardDetailItem key={store.id} item={store}></CardDetailItem>
-                </div>
-                ))}
-            </Slide>
+            <div className="text-4xl font-semibold mt-6 text-center">View in-store classes and support.</div>
+                <Slide>
+                    {stores.map((store) => (
+                        <div
+                            key={store.id}
+                            className="flex-shrink-0 ml-6 py-7"
+                        >
+                            <CardDetailItem key={store.id} item={store}></CardDetailItem>
+                        </div>
+                    ))}
+                </Slide>
         </div>
     );
 };

@@ -1,7 +1,7 @@
 import CardDetailItem from "./Card/CardDetailItem";
 import Slide from './Layout/Slide';
 
-const SlideProduct = () => {
+const SlideNewProduct = () => {
   const productItems = [
     { id: 'product_1', badgeLabel: 'NEW' ,name: 'MacBook Air M3', detail:'Lean. Mean. M3 machine.', detail2: 'From $5199', imgSrc: 'https://cdn.shopify.com/s/files/1/0818/1304/5566/files/MacBook_Air_15-in_M3_Chip_Midnight_Hero_Horizontal_Screen__USEN.jpg?v=1709561887&width=256' },
     { id: 'product_3', badgeLabel: 'NEW' ,name: 'Watch Accessories', detail:'Shop watch accessories.', detail2: 'From $5025', imgSrc: 'https://cdn.shopify.com/s/files/1/0818/1304/5566/files/What_s_New_Watch-Accessories.png?v=1695309067&width=256' },
@@ -13,7 +13,7 @@ const SlideProduct = () => {
   ];
   return (
     <div>
-      <div className="text-4xl font-semibold pl-9 mt-6">See what’s new.</div>
+      <div className="text-4xl font-semibold mt-6">See what’s new.</div>
       <Slide>
         {productItems.map((product) => (
           <div
@@ -27,4 +27,4 @@ const SlideProduct = () => {
     </div>
   );
 };
-export default SlideProduct;
+export default SlideNewProduct;

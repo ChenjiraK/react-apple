@@ -1,0 +1,28 @@
+{
+    "data": {
+        "items": [
+            {
+                "id": "",
+                "img_src": "",
+                "name": "",
+                "router_page": "",
+                "badge_label": [
+                    {
+                        "badge_label": "",
+                        "badge_color": ""
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": ""
+            }
+        ],
+        "banners": [
+            {
+                "id": "",
+                "img_src": "",
+                "name": "",
+                "router_page": ""
+            }
+        ]
+    }
+}

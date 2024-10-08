@@ -29,9 +29,9 @@ const Assistant = () => {
     ]
     return (
         <div>
-            {assists.map((item) =>(
+            {assists.map((item, index) =>(
                 <div key={item.id} className="py-2">
-                    <SidemageWithContent item={item} />
+                    <SidemageWithContent posistionImage={ index % 2 === 0 ? 'left' : 'right' } item={item} />
                 </div>
             ))}
         </div>

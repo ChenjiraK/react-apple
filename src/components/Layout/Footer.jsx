@@ -103,7 +103,7 @@ function Footer(){
                     {/* Submenu Items */}
                     <div className="pt-30px">
                         {menu.subMenu.map((sub, subIndex) => (
-                            <p key={`subIndex_${subIndex}`} className="pb-4">
+                            <p key={`subIndex_${subIndex}`} className="pb-4 cursor-pointer hover:underline tracking-wider">
                                 {sub.name}
                             </p>
                         ))}
@@ -120,6 +120,12 @@ function Footer(){
                 </div>
                 <div className="w-130px pb-4">
                     <img src={'https://www.appstaging.dev/cdn/shop/files/Authorized_Education_Specialist_2ln_blk_CAEN_110821_130x@2x.svg?v=1704312327'} alt="Authorized Education Specialist" />
+                </div>
+            </div>
+            <div className="mt-16">
+                <div className="flex justify-between">
+                    <div></div>
+                    <div></div>
                 </div>
             </div>
         </footer>

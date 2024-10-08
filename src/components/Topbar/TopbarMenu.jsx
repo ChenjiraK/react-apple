@@ -1,70 +1,36 @@
 
+import ExampleCategories from '../../Json/ExampleCategories.json';
+import { CategoriesListModel } from '../../model/CategoriesModel';
+import MenuDropdown from '../Input/MenuDropdown';
+
 function TopbarMenu(){
-    const barMenu = [
-        {
-            id: 1,
-            label: 'Mac',
-            route: ''
-        },
-        {
-            id: 2,
-            label: 'iPad',
-            route: ''
-        },
-        {
-            id: 3,
-            label: 'iPhone',
-            route: ''
-        },
-        {
-            id: 4,
-            label: 'Watch',
-            route: ''
-        },
-        {
-            id: 5,
-            label: 'TV & Home',
-            route: ''
-        },
-        {
-            id: 6,
-            label: 'Accessories',
-            route: ''
-        },
-        {
-            id: 7,
-            label: 'Service',
-            route: ''
-        },
-        {
-            id: 8,
-            label: 'Offers',
-            route: ''
-        },
-    ]
+    const datas = ExampleCategories;
+    const barMenu = datas.categories.map((item) => new CategoriesListModel(item));
     const otherMenu = [
         {
             id: 9,
-            label: 'Stores',
+            name: 'Stores',
             route: ''
         },
         {
             id: 10,
-            label: 'Business',
+            name: 'Business',
             route: ''
         },
     ]
     return(
        <div className="flex justify-between">
            {barMenu.map((bar) => (
-                <div className="cursor-pointer" key={bar.id}>
-                    <p>{bar.label}</p>
+                <div key={`category_${bar.id}`}>
+                    <MenuDropdown dropdownList={bar.subCategories} onChangeItem={(item) => console.log(item)}>
+                        <p className="hover:underline hover:text-black">{bar.name}</p>
+                    </MenuDropdown>
                 </div>
             ))}
             <div className="h-7 border-l"></div>
             {otherMenu.map((other) => (
-                <div className="cursor-pointer" key={other.id}>
-                    <p>{other.label}</p>
+                <div className="cursor-pointer" key={`other_category_${other.id}`}>
+                    <p>{other.name}</p>
                 </div>
             ))}
        </div>

@@ -26,10 +26,12 @@ const LearnMoreService = () => {
         }
     ]
     return (
-        <div className='flex justify-around'>
-            {services.map(item=> (
-                <IconWithContent key={item.id} item={item} />
-            ))}
+        <div>
+            <div className='flex justify-around w-main-page'>
+                {services.map(item=> (
+                    <IconWithContent key={item.id} item={item} />
+                ))}
+            </div>
         </div>
     );
 };

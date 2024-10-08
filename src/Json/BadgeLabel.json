@@ -1,0 +1,59 @@
+{
+    "badges": [
+        {
+            "id": 1,
+            "badge_label": "NEW",
+            "badge_color": "#bf4800"
+        },
+        {
+            "id": 2,
+            "badge_label": "FREE AIRPODS",
+            "badge_color": "#bf4800"
+        },
+        {
+            "id": 3,
+            "badge_label": "CYBER WEEK",
+            "badge_color": "#5856D6"
+        },
+        {
+            "id": 4,
+            "badge_label": "UPGRADE",
+            "badge_color": "#0071bc"
+        },
+        {
+            "id": 5,
+            "badge_label": "FINANCING",
+            "badge_color": "#0071bc"
+        },
+        {
+            "id": 6,
+            "badge_label": "IN STORE",
+            "badgeColor": "#707070"
+        },
+        {
+            "id": 7,
+            "badge_label": "SALE",
+            "badgeColor": "008900"
+        },
+        {
+            "id": 8,
+            "badgeLabel": "FREE AIRPODS",
+            "badgeColor": "#bf4800"
+        },
+        {
+            "id": 9,
+            "badgeLabel": "FREE GIFT AND OFFER",
+            "badgeColor": "#5856D6"
+        },
+        {
+            "id": 10,
+            "badgeLabel": "TRADE–IN",
+            "badgeColor": "#0071bc"
+        },
+        {
+            "id": 11,
+            "badgeLabel": "PRE–ORDER",
+            "badgeColor": "#336e7b"
+        }
+    ]
+}

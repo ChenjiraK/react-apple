@@ -1,0 +1,576 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Mac",
+            "sub_categories": [
+                {
+                    "id": 1,
+                    "cat_id": 1,
+                    "name": "View all Mac",
+                    "name_th": "View all Mac",
+                    "type": "all"
+                },
+                {
+                    "id": 2,
+                    "cat_id": 1,
+                    "name": "Macbook Air",
+                    "name_th": "Macbook Air",
+                    "type": null
+                },
+                {
+                    "id": 3,
+                    "cat_id": 1,
+                    "name": "Macbook Pro",
+                    "name_th": "Macbook Pro",
+                    "type": null
+                },
+                {
+                    "id": 4,
+                    "cat_id": 1,
+                    "name": "iMac",
+                    "name_th": "iMac",
+                    "type": null
+                },
+                {
+                    "id": 5,
+                    "cat_id": 1,
+                    "name": "Mac Mini",
+                    "name_th": "Mac Mini",
+                    "type": null
+                },
+                {
+                    "id": 6,
+                    "cat_id": 1,
+                    "name": "Mac Studio",
+                    "name_th": "Mac Studio",
+                    "type": null
+                },
+                {
+                    "id": 7,
+                    "cat_id": 1,
+                    "name": "Studio Display",
+                    "name_th": "Studio Display",
+                    "type": null
+                },
+                {
+                    "id": 8,
+                    "cat_id": 1,
+                    "name": "Mac Accessories",
+                    "name_th": "Mac Accessories",
+                    "type": null
+                },
+                {
+                    "id": 9,
+                    "cat_id": 1,
+                    "name": "Compare All Mac Models",
+                    "name_th": "Compare All Mac Models",
+                    "type": null
+                },
+                {
+                    "id": 10,
+                    "cat_id": 1,
+                    "name": "AppleCare+ for mac",
+                    "name_th": "AppleCare+ for mac",
+                    "type": null
+                },
+                {
+                    "id": 11,
+                    "cat_id": 1,
+                    "name": "Mac dose That",
+                    "name_th": "Mac dose That",
+                    "type": null
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "iPad",
+            "sub_categories": [
+                {
+                    "id": 12,
+                    "cat_id": 2,
+                    "name": "View all iPad",
+                    "name_th": "View all iPad",
+                    "type": "all"
+                },
+                {
+                    "id": 13,
+                    "cat_id": 2,
+                    "name": "iPad Pro",
+                    "name_th": "iPad Pro",
+                    "type": null
+                },
+                {
+                    "id": 14,
+                    "cat_id": 2,
+                    "name": "iPad Air",
+                    "name_th": "",
+                    "type": null
+                },
+                {
+                    "id": 15,
+                    "cat_id": 2,
+                    "name": "iPad",
+                    "name_th": "iPad",
+                    "type": null
+                },
+                {
+                    "id": 5,
+                    "cat_id": 2,
+                    "name": "iPad mini",
+                    "name_th": "iPad mini",
+                    "type": null
+                },
+                {
+                    "id": 16,
+                    "cat_id": 2,
+                    "name": "iPad Accessories",
+                    "name_th": "iPad Accessories",
+                    "type": null
+                },
+                {
+                    "id": 17,
+                    "cat_id": 2,
+                    "name": "Compare all iPad",
+                    "name_th": "Compare all iPad",
+                    "type": null
+                },
+                {
+                    "id": 18,
+                    "cat_id": 2,
+                    "name": "AppleCare+ for iPad",
+                    "name_th": "AppleCare+ for iPad",
+                    "type": null
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "iPhone",
+            "sub_categories": [
+                {
+                    "id": 19,
+                    "cat_id": 3,
+                    "name": "View all iPhone",
+                    "name_th": "View all iPhone",
+                    "type": "all"
+                },
+                {
+                    "id": 20,
+                    "cat_id": 3,
+                    "name": "iPhone 16 Pro",
+                    "name_th": "iPhone 16 Pro",
+                    "type": null
+                },
+                {
+                    "id": 21,
+                    "cat_id": 3,
+                    "name": "iPhone 16",
+                    "name_th": "iPhone 16",
+                    "type": null
+                },
+                {
+                    "id": 22,
+                    "cat_id": 3,
+                    "name": "iPhone 15 Pro",
+                    "name_th": "iPhone 15 Pro",
+                    "type": null
+                },
+                {
+                    "id": 23,
+                    "cat_id": 3,
+                    "name": "iPhone 15",
+                    "name_th": "iPhone 15",
+                    "type": null
+                },
+                {
+                    "id": 24,
+                    "cat_id": 3,
+                    "name": "iPhone 14 Pro",
+                    "name_th": "iPhone 14 Pro",
+                    "type": null
+                },
+                {
+                    "id": 25,
+                    "cat_id": 3,
+                    "name": "iPhone 14",
+                    "name_th": "iPhone 14",
+                    "type": null
+                },
+                {
+                    "id": 26,
+                    "cat_id": 3,
+                    "name": "iPhone 13 Pro",
+                    "name_th": "iPhone 13 Pro",
+                    "type": null
+                },
+                {
+                    "id": 27,
+                    "cat_id": 3,
+                    "name": "iPhone 13",
+                    "name_th": "iPhone 13",
+                    "type": null
+                },
+                {
+                    "id": 28,
+                    "cat_id": 3,
+                    "name": "iPhone SE",
+                    "name_th": "",
+                    "type": null
+                },
+                {
+                    "id": 29,
+                    "cat_id": 3,
+                    "name": "iPhone Accessories",
+                    "name_th": "",
+                    "type": null
+                },
+                {
+                    "id": 30,
+                    "cat_id": 3,
+                    "name": "Compare all iPhone models",
+                    "name_th": "",
+                    "type": null
+                },
+                {
+                    "id": 31,
+                    "cat_id": 3,
+                    "name": "AppleCare+ for iPhone",
+                    "name_th": "",
+                    "type": null
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Watch",
+            "sub_categories": [
+                {
+                    "id": 32,
+                    "cat_id": 4,
+                    "name": "View all Watch",
+                    "name_th": "View all Watch",
+                    "type": "all"
+                },
+                {
+                    "id": 33,
+                    "cat_id": 4,
+                    "name": "Apple Watch Ultra",
+                    "name_th": "Apple Watch Ultra",
+                    "type": null
+                },
+                {
+                    "id": 34,
+                    "cat_id": 4,
+                    "name": "Apple Watch Series 10",
+                    "name_th": "Apple Watch Series 10",
+                    "type": null
+                },
+                {
+                    "id": 35,
+                    "cat_id": 4,
+                    "name": "Apple Watch Series 9",
+                    "name_th": "Apple Watch Series 9",
+                    "type": null
+                },
+                {
+                    "id": 36,
+                    "cat_id": 4,
+                    "name": "Apple Watch Series 8",
+                    "name_th": "Apple Watch Series 8",
+                    "type": null
+                },
+                {
+                    "id": 37,
+                    "cat_id": 4,
+                    "name": "Apple Watch Series 7",
+                    "name_th": "Apple Watch Series 7",
+                    "type": null
+                },
+                {
+                    "id": 38,
+                    "cat_id": 4,
+                    "name": "Apple Watch SE",
+                    "name_th": "Apple Watch SE",
+                    "type": null
+                },
+                {
+                    "id": 39,
+                    "cat_id": 4,
+                    "name": "Apple Watch Nike",
+                    "name_th": "Apple Watch Nike",
+                    "type": null
+                },
+                {
+                    "id": 40,
+                    "cat_id": 4,
+                    "name": "Apple Fitness+",
+                    "name_th": "Apple Fitness+",
+                    "type": null
+                },
+                {
+                    "id": 41,
+                    "cat_id": 4,
+                    "name": "Apple Watch Accessories",
+                    "name_th": "Apple Watch Accessories",
+                    "type": null
+                },
+                {
+                    "id": 42,
+                    "cat_id": 4,
+                    "name": "Compare All Watch Models",
+                    "name_th": "Compare All Watch Models",
+                    "type": null
+                },
+                {
+                    "id": 43,
+                    "cat_id": 4,
+                    "name": "AppleCare+ for Apple Watch",
+                    "name_th": "AppleCare+ for Apple Watch",
+                    "type": null
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Music",
+            "sub_categories": [
+                {
+                    "id": 44,
+                    "cat_id": 5,
+                    "name": "View all Music",
+                    "name_th": "View all Music",
+                    "type": null
+                },
+                {
+                    "id": 45,
+                    "cat_id": 5,
+                    "name": "Airpods Pro",
+                    "name_th": "Airpods Pro",
+                    "type": null
+                },
+                {
+                    "id": 46,
+                    "cat_id": 5,
+                    "name": "Airpods",
+                    "name_th": "Airpods",
+                    "type": null
+                },
+                {
+                    "id": 47,
+                    "cat_id": 5,
+                    "name": "Airpods Max",
+                    "name_th": "Airpods Max",
+                    "type": null
+                },
+                {
+                    "id": 48,
+                    "cat_id": 5,
+                    "name": "HomePod",
+                    "name_th": "HomePod",
+                    "type": null
+                },
+                {
+                    "id": 49,
+                    "cat_id": 5,
+                    "name": "Beats",
+                    "name_th": "Beats",
+                    "type": null
+                },
+                {
+                    "id": 50,
+                    "cat_id": 5,
+                    "name": "Apple music",
+                    "name_th": "Apple music",
+                    "type": null
+                },
+                {
+                    "id": 51,
+                    "cat_id": 5,
+                    "name": "Music Accessories",
+                    "name_th": "Music Accessories",
+                    "type": null
+                },
+                {
+                    "id": 52,
+                    "cat_id": 5,
+                    "name": "Compare all AirPods models",
+                    "name_th": "Compare all AirPods models",
+                    "type": null
+                },
+                {
+                    "id": 53,
+                    "cat_id": 5,
+                    "name": "AppleCare+ for Headphones",
+                    "name_th": "AppleCare+ for Headphones",
+                    "type": null
+                },
+                {
+                    "id": 54,
+                    "cat_id": 5,
+                    "name": "AppleCare+ for HomePod",
+                    "name_th": "AppleCare+ for HomePod",
+                    "type": null
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "TV & Home",
+            "sub_categories": [
+                {
+                    "id": 55,
+                    "cat_id": 6,
+                    "name": "View all TV & Home",
+                    "name_th": "View all TV & Home",
+                    "type": null
+                },
+                {
+                    "id": 56,
+                    "cat_id": 6,
+                    "name": "Apple TV 4K",
+                    "name_th": "Apple TV 4K",
+                    "type": null
+                },
+                {
+                    "id": 57,
+                    "cat_id": 6,
+                    "name": "HomePod",
+                    "name_th": "HomePod",
+                    "type": null
+                },
+                {
+                    "id": 58,
+                    "cat_id": 6,
+                    "name": "Apple TV+",
+                    "name_th": "Apple TV+",
+                    "type": null
+                },
+                {
+                    "id": 59,
+                    "cat_id": 6,
+                    "name": "TV & Home Accessories",
+                    "name_th": "TV & Home Accessories",
+                    "type": null
+                },
+                {
+                    "id": 60,
+                    "cat_id": 6,
+                    "name": "AppleCare+ for Apple TV",
+                    "name_th": "AppleCare+ for Apple TV",
+                    "type": null
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Accessories",
+            "sub_categories": [
+                {
+                    "id": 61,
+                    "cat_id": 7,
+                    "name": "View all Accessories",
+                    "name_th": "View all Accessories",
+                    "type": null
+                },
+                {
+                    "id": 62,
+                    "cat_id": 7,
+                    "name": "Mac Accessories",
+                    "name_th": "Mac Accessories",
+                    "type": null
+                },
+                {
+                    "id": 63,
+                    "cat_id": 7,
+                    "name": "iPad Accessories",
+                    "name_th": "iPad Accessories",
+                    "type": null
+                },
+                {
+                    "id": 64,
+                    "cat_id": 7,
+                    "name": "iPhone Accessories",
+                    "name_th": "iPhone Accessories",
+                    "type": null
+                },
+                {
+                    "id": 65,
+                    "cat_id": 7,
+                    "name": "Apple Watch Accessories",
+                    "name_th": "Apple Watch Accessories",
+                    "type": null
+                },
+                {
+                    "id": 66,
+                    "cat_id": 7,
+                    "name": "Music Accessories",
+                    "name_th": "Music Accessories",
+                    "type": null
+                },
+                {
+                    "id": 67,
+                    "cat_id": 7,
+                    "name": "TV & Home Accessories",
+                    "name_th": "TV & Home Accessories",
+                    "type": null
+                },
+                {
+                    "id": 68,
+                    "cat_id": 7,
+                    "name": "AirTag Accessories",
+                    "name_th": "AirTag Accessories",
+                    "type": null
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Service",
+            "sub_categories": [
+                {
+                    "id": 69,
+                    "cat_id": 8,
+                    "name": "Financing",
+                    "name_th": "Financing",
+                    "type": null
+                },
+                {
+                    "id": 70,
+                    "cat_id": 8,
+                    "name": "Trade-in",
+                    "name_th": "Trade-in",
+                    "type": null
+                },
+                {
+                    "id": 71,
+                    "cat_id": 8,
+                    "name": "AppleCare+",
+                    "name_th": "AppleCare+",
+                    "type": null
+                },
+                {
+                    "id": 72,
+                    "cat_id": 8,
+                    "name": "Shipping & Pick up",
+                    "name_th": "Shipping & Pick up",
+                    "type": null
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Offers",
+            "sub_categories": [
+                {
+                    "id": 73,
+                    "cat_id": 9,
+                    "name": "Cyber Week",
+                    "name_th": "Cyber Week",
+                    "type": null
+                }
+            ]
+        }
+    ]
+}

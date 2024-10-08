@@ -53,3 +53,6 @@
 .btn-navigation-slide {
   @apply bg-btn-0071e3 w-12 h-12 text-white p-3 rounded-full transform -translate-y-1/2;
 }
+.padding-slide {
+  padding: 0 0 0 calc((100% - 1220px) / 2);
+}

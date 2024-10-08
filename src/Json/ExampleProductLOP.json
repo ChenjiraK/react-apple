@@ -1,0 +1,953 @@
+{
+    "data": {
+        "items": [
+            {
+                "id": "product_lop_1",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/MacBook_Air_15-in_M3_Chip_Midnight_Hero_Horizontal_Screen__USEN_1500x.jpg?v=1709561887",
+                "name": "MacBook Air",
+                "detail": "Lean. Mean. M3 machine. ",
+                "price": 6299,
+                "unit": "$",
+                "router_page": "",
+                "category": "MAC",
+                "is_highlight": true,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_2",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/MacBook_Pro_16_in_M3_Pro_Max_Space_Black_PDP_Image_Position-1__en-US_4b201ab2-e8b0-4902-919c-887d047bc283.jpg?v=1701818589&width=550",
+                "name": "MacBook Pro",
+                "detail": "Mind-blowing. Head-turning.",
+                "price": 6299,
+                "unit": "$",
+                "router_page": "",
+                "category": "MAC",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_3",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/MacBook_Air_15-in_M2_Chip_Midnight_Pure_Front_Screen__USEN_550x_0ea34abd-a40b-4181-b4de-2a2cae593442.webp?v=1695334230&width=550",
+                "name": "MacBook Air",
+                "detail": "Lean. Mean. M3 machine. ",
+                "price": 6099,
+                "unit": "$",
+                "router_page": "",
+                "category": "MAC",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_4",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/iMac_M3_4-ports_Blue_PDP_Image_Position_1__en-US_c5b1f1ec-2f33-43e4-b07c-fb51982f7cd3.jpg?v=1701818769&width=550",
+                "name": "iMac",
+                "detail": "Packed with more juice.",
+                "price": 6299,
+                "unit": "$",
+                "router_page": "",
+                "category": "MAC",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_5",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/Mac_mini_M2_Silver_PDP_Image_Position-1__en-US_3ba24ad5-c615-4416-8b62-a1aa0e62f207.jpg?v=1695334795&width=550",
+                "name": "Mac mini",
+                "detail": "Supercharged by M2 and M2 Pro.",
+                "price": 5799,
+                "unit": "$",
+                "router_page": "",
+                "category": "MAC",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_6",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/Mac_Studio_2-Up_Screen__USEN.png?v=1701818729&width=550",
+                "name": "Mac Studio",
+                "detail": "A true powerhouse.",
+                "price": 5799,
+                "unit": "$",
+                "router_page": "",
+                "category": "MAC",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_7",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/Studio_Display_PDP_Image_Position-1__en-US_79ba378c-4093-4ac4-a812-828a0d4ec646.jpg?v=1695332239&width=550",
+                "name": "Studio Display",
+                "detail": "A sight to be bold.",
+                "price": 6599,
+                "unit": "$",
+                "router_page": "",
+                "category": "MAC",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_8",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/AMZ_FamilyStripe_iPhone_13_Accessories_550x_95aa7000-4314-4a00-a6b7-418262be81d4.webp?v=1695334230&width=550",
+                "name": "Mac Accessories",
+                "detail": "",
+                "price": 0,
+                "unit": "$",
+                "router_page": "",
+                "category": "MAC",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "View collection"
+            },
+            {
+                "id": "product_lop_9",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/iPad_Pro_13-inch_M4_Chip_Cellular_Hero_Vertical_Screen__USEN_1500x.png?v=1715099322",
+                "name": "iPad Pro M4",
+                "detail": "Thinpossible.",
+                "price": 5999,
+                "unit": "$",
+                "router_page": "",
+                "category": "iPad",
+                "is_highlight": true,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "Learn more",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_10",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/iPad_Air_13-inch_M2_Chip_Wi-Fi_Blue_2-Up_Screen__USEN.png?v=1715106238&width=550",
+                "name": "iPad Air",
+                "detail": "Fresh Air.",
+                "price": 6000,
+                "unit": "$",
+                "router_page": "",
+                "category": "iPad",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    },
+                    {
+                        "id": 9,
+                        "badgeLabel": "FREE GIFT AND OFFER",
+                        "badgeColor": "#5856D6"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_11",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/iPad_Pro_11-inch_M4_Chip_Cellular_Silver_Screen__USEN.png?v=1715106428&width=550",
+                "name": "iPad Pro",
+                "detail": "Thinpossible.",
+                "price": 6000,
+                "unit": "$",
+                "router_page": "",
+                "category": "iPad",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_12",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/iPad_10th_generation_Cellular_Blue_PDP_Image_Position-1b_5G__en-US_89ddb0c0-4b32-40e3-b4a7-5ef0d3e24e50.jpg?v=1695334063&width=550",
+                "name": "iPad",
+                "detail": "Colorful. Incredibly capable.",
+                "price": 6000,
+                "unit": "$",
+                "router_page": "",
+                "category": "iPad",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_13",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/iPad_mini_Cellular_Pink_PDP_Image_Position-1a_5G__en-US_29988062-d3e5-4f9a-abce-98e1ea90980b.jpg?v=1695332458&width=550",
+                "name": "iPad mini",
+                "detail": "Wireless. Effortless. Magical. ",
+                "price": 5500,
+                "unit": "$",
+                "router_page": "",
+                "category": "iPad",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 7,
+                        "badge_label": "SALE",
+                        "badgeColor": "008900"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_14",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/Magic_Keyboard_11_Pro_Silver.png?v=1715100914&width=550",
+                "name": "iPad Accessories",
+                "detail": "",
+                "price": 0,
+                "unit": "$",
+                "router_page": "",
+                "category": "iPad",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "View collection"
+            },
+            {
+                "id": "product_lop_15",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/iPhone_16_Ultramarine_Hero_Horizontal_Apple_Intelligence_Screen__USEN_1_1500x.png?v=1725991345",
+                "name": "iPhone 16",
+                "detail": "Superfast. Supersmart. <br> Pre-order starting 9.13. Available 9.20.",
+                "price": 5700,
+                "unit": "$",
+                "router_page": "",
+                "category": "iPhone",
+                "is_highlight": true,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "Learn more",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_16",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/iPhone_16_Pro_Desert_Titanium_PDP_Image_Position_1__en-US.jpg?v=1725988892&width=550",
+                "name": "iPhone 16 Pro",
+                "detail": "Pre-order starting 9.13, Available 9.20",
+                "price": 5900,
+                "unit": "$",
+                "router_page": "",
+                "category": "iPhone",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_17",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/iPhone_15_Pro_Blue_Titanium_PDP_Image_Position-1__en-US.png?v=1695335032&width=550",
+                "name": "iPhone 15 Pro",
+                "detail": "Titanium. ",
+                "price": 6000,
+                "unit": "$",
+                "router_page": "",
+                "category": "iPhone",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_18",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/iPhone_15_Pink_Pure_Back_iPhone_15_Pink_Pure_Front_2up_Screen__USEN.png?v=1695335033&width=550",
+                "name": "iPhone 15",
+                "detail": "Newphoria. ",
+                "price": 6000,
+                "unit": "$",
+                "router_page": "",
+                "category": "iPhone",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_19",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/iPhone_14_Pro_Max_Gold_PDP_Image_Position-1a__en-US_fdd9f929-112a-401f-9714-fc28c3ab150f.jpg?v=1695334174&width=550",
+                "name": "iPhone 14 Pro",
+                "detail": "All Systems Pro. ",
+                "price": 6000,
+                "unit": "$",
+                "router_page": "",
+                "category": "iPhone",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_20",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/compareiphone030723_header_iphone_14_blue_small_2x_compareiphone030723.png?v=1695334673&width=550",
+                "name": "iPhone 14",
+                "detail": "Full of fantastic features. Available starting 3.18. From $5799. Trade-in and financing available.",
+                "price": 6000,
+                "unit": "$",
+                "router_page": "",
+                "category": "iPhone",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 10,
+                        "badgeLabel": "TRADE–IN",
+                        "badgeColor": "#0071bc"
+                    },
+                    {
+                        "id": 11,
+                        "badgeLabel": "PRE–ORDER",
+                        "badgeColor": "#336e7b"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_21",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/iPhone_13_Pro_Max_Sierra_Blue_PDP_Image_Position-1A__en-US_bf7e6c84-7ba6-4891-899e-35b6acbd5dca.jpg?v=1695333296&width=550",
+                "name": "iPhone 13 Pro",
+                "detail": "Free AirPods with purchase. ",
+                "price": 5000,
+                "unit": "$",
+                "router_page": "",
+                "category": "iPhone",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 2,
+                        "badge_label": "FREE AIRPODS",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_22",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/iPhone_13_mini_Midnight_PDP_Image_Position-1A__en-US_2fc127f9-29c9-4cc3-b937-61b23ba60964.jpg?v=1695332975&width=550",
+                "name": "iPhone 13",
+                "detail": "As amazing as ever. ",
+                "price": 5040,
+                "unit": "$",
+                "router_page": "",
+                "category": "iPhone",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 3,
+                        "badge_label": "CYBER WEEK",
+                        "badge_color": "#5856D6"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_23",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/iPhone_SE_Starlight_PDP_Image_Position-1A__en-US_3f3aee49-c2ff-4cf2-a290-1d64b1ba5aff.jpg?v=1695333394&width=550",
+                "name": "iPhone SE",
+                "detail": "Serious power. Serious value.",
+                "price": 6000,
+                "unit": "$",
+                "router_page": "",
+                "category": "iPhone",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_24",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/IMG-14666163.png?v=1726245034&width=550",
+                "name": "iPhone Accessories",
+                "detail": "",
+                "price": 0,
+                "unit": "$",
+                "router_page": "",
+                "category": "iPhone",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "View collection"
+            },
+            {
+                "id": "product_lop_25",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/Apple_Watch_Series_10_GPS_46mm_Jet_Black_Hero_Horizontal_Screen__USEN_1_1070x.png?v=1725992562",
+                "name": "Apple Watch Series 10",
+                "detail": "Biggest display. Thinnest design. Ever.",
+                "price": 5000,
+                "unit": "$",
+                "router_page": "",
+                "category": "Watch",
+                "is_highlight": true,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "Learn more",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_26",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/Apple_Watch_SE_GPS_40mm_Starlight_Aluminum_Starlight_Sport_Band_34FR_Screen__USEN.png?v=1695334937&width=550",
+                "name": "Apple Watch SE",
+                "detail": "A great deal to love. Available 9.20.",
+                "price": 5000,
+                "unit": "$",
+                "router_page": "",
+                "category": "Watch",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_27",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/Apple_Watch_Series_10_46mm_GPS_Jet_Black_Aluminum_Sport_Band_Black_PDP_Image_Position_1__en-US.jpg?v=1725993283&width=550",
+                "name": "Apple Watch Series 10",
+                "detail": "Thinstant classic. Available 9.20. ",
+                "price": 5300,
+                "unit": "$",
+                "router_page": "",
+                "category": "Watch",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_28",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/Apple_Watch_Ultra_2_49mm_Black_Titanium_Ocean_Band_Black_PDP_Image_Position_1__en-US.jpg?v=1725993395&width=550",
+                "name": "Apple Watch Ultra",
+                "detail": "New finish. Never quit. Available 9.20. ",
+                "price": 5700,
+                "unit": "$",
+                "router_page": "",
+                "category": "Watch",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_29",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/Apple_Watch_Series_9_GPS_41mm_Pink_Aluminum_Light_Pink_Sport_Band_34FR_Screen__USEN.png?v=1695334940&width=550",
+                "name": "Apple Watch Series 9",
+                "detail": "Smarter. Brighter. Mightier.",
+                "price": 5300,
+                "unit": "$",
+                "router_page": "",
+                "category": "Watch",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_30",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/Apple_Watch_Series_8_LTE_41mm_Silver_Stainless_Steel_Silver_Milanese_Loop_PDP_Image_Position-1__en-US_26c44b94-e8c3-4778-abf3-bb1610b5750b.jpg?v=1701879034&width=550",
+                "name": "Apple Watch Series 8",
+                "detail": "A healthy leap ahead. ",
+                "price": 5300,
+                "unit": "$",
+                "router_page": "",
+                "category": "Watch",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_31",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/Apple_Watch_Series_7_LTE_45mm_Blue_Aluminum_Abyss_Blue_Sport_Band_PDP_Image_Position-1__en-US_b4d758a4-05ec-4a03-acce-b9975608cba0.jpg?v=1695333520&width=550",
+                "name": "Apple Watch Series 7",
+                "detail": "",
+                "price": 7900,
+                "unit": "$",
+                "router_page": "",
+                "category": "Watch",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 4,
+                        "badge_label": "UPGRADE",
+                        "badge_color": "#0071bc"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_32",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/AWSE_LTE_44mm_Space_Gray_Aluminum_Anthracite_Black_Nike_Sport_Band_PDP_Image_Position-1__LAES_550x_72883938-6009-4471-85df-c6dbd891009b.webp?v=1695334234&width=550",
+                "name": "Apple Watch Nike",
+                "detail": "",
+                "price": 5500,
+                "unit": "$",
+                "router_page": "",
+                "category": "Watch",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_33",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/Watch_accessoires_v1.jpg?v=1725992290&width=550",
+                "name": "Apple Watch Accessories",
+                "detail": "",
+                "price": 0,
+                "unit": "$",
+                "router_page": "",
+                "category": "Watch",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "View collection"
+            },
+            {
+                "id": "product_lop_34",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/AirPods_4_Hero_Screen__USEN_c24a8403-87ec-478a-9552-946e794dc47c_1070x.png?v=1725996963",
+                "name": "AirPods 4",
+                "detail": "Iconic. Now supersonic.",
+                "price": 5300,
+                "unit": "$",
+                "router_page": "",
+                "category": "Music",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_35",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/AirPods_Max_2024_Midnight_PDP_Image_Position_1__en-US.jpg?v=1725999358&width=550",
+                "name": "AirPods Max",
+                "detail": "Fresh colors. Bold sound.",
+                "price": 5200,
+                "unit": "$",
+                "router_page": "",
+                "category": "Music",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_36",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/AirPods_4_PDP_Image_Position_1__en-US.jpg?v=1725997984&width=550",
+                "name": "AirPods",
+                "detail": "Iconic. Now supersonic.",
+                "price": 5300,
+                "unit": "$",
+                "router_page": "",
+                "category": "Music",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_37",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/AirPods_Pro_2nd_Gen_with_USB-C_PDP_Image_Position-1__global.jpg?v=1695335567&width=550",
+                "name": "AirPods Pro",
+                "detail": "Adaptive Audio. Now playing.",
+                "price": 600,
+                "unit": "$",
+                "router_page": "",
+                "category": "Music",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_38",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/homepad.jpg?v=1695334233&width=550",
+                "name": "HomePod",
+                "detail": "Immersive audio. Advanced intelligence. <br> Available starting 2.3.",
+                "price": 534,
+                "unit": "$",
+                "router_page": "",
+                "category": "Music",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_39",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/MMT93_b785bfea-422b-4ced-af74-955997f53267.png?v=1695334798&width=550",
+                "name": "Beats",
+                "detail": "",
+                "price": 439,
+                "unit": "$",
+                "router_page": "",
+                "category": "Music",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_40",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/airpods_pro_PDP_US_8.jpg?v=1693594052&width=550",
+                "name": "Music Accessories",
+                "detail": "",
+                "price": 0,
+                "unit": "$",
+                "router_page": "",
+                "category": "Music",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "View collection"
+            },
+            {
+                "id": "product_lop_41",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/HomePod_PDP_Image_Position-1__en-US_1070x_8689e41f-3bdf-46da-8ef2-72b46a3a758c_1070x.jpg?v=1695334229",
+                "name": "HomePod",
+                "detail": "Immersive audio. Advanced intelligence.",
+                "price": 890,
+                "unit": "$",
+                "router_page": "",
+                "category": "Home",
+                "is_highlight": true,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_42",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/Apple_TV_4K_PDP_Image_Position-1_LAES_R1_v1_550x_4af907f4-0edd-4eeb-902b-4ba8e802a050.webp?v=1695334229&width=550",
+                "name": "Apple TV 4K",
+                "detail": "Starting from $5129.",
+                "price": 0,
+                "unit": "$",
+                "router_page": "",
+                "category": "Home",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_43",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/HomePod_PDP_Image_Position-1__en-US_1070x_8689e41f-3bdf-46da-8ef2-72b46a3a758c_1070x.jpg?v=1695334229",
+                "name": "HomePod",
+                "detail": "Immersive audio. Advanced intelligence.",
+                "price": 890,
+                "unit": "$",
+                "router_page": "",
+                "category": "Home",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            },
+            {
+                "id": "product_lop_44",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/Apr_whatsnew_banner_1_1070x_1070x_ced5d7cc-f00e-4b8d-84e8-cfc248f433c0.webp?v=1695334230&width=550",
+                "name": "Apple TV+",
+                "detail": "Stream award-winning Apple Originals <br> on every screen.",
+                "price": 0,
+                "unit": "$",
+                "router_page": "",
+                "category": "Home",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "Learn more"
+            },
+            {
+                "id": "product_lop_45",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/Apple_TV_Remote_PDP_Image_Position-1_LAEN_R1_v1_550x_4174711b-df52-4545-879d-8f3d304b8b17.webp?v=1695334228&width=550",
+                "name": "Apple TV Accessories",
+                "detail": "",
+                "price": 0,
+                "unit": "$",
+                "router_page": "",
+                "category": "Accessories",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "View collection"
+            },
+            {
+                "id": "product_lop_46",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/AMZ_FamilyStripe_iPhone_13_Accessories_550x_303b4a8d-34c2-4df3-94ba-a0fcecbc4e32.webp?v=1695334227&width=550",
+                "name": "Mac Accessories",
+                "detail": "",
+                "price": 0,
+                "unit": "$",
+                "router_page": "",
+                "category": "Accessories",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "View collection"
+            },
+            {
+                "id": "product_lop_47",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/Magic_Keyboard_11_Pro_Silver.png?v=1715100914&width=550",
+                "name": "iPad Accessories",
+                "detail": "",
+                "price": 0,
+                "unit": "$",
+                "router_page": "",
+                "category": "Accessories",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "View collection"
+            },
+            {
+                "id": "product_lop_48",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/AMZ_Family-Stripe_iPhone_Accessories.png?v=1725992853&width=550",
+                "name": "iPhone Accessories",
+                "detail": "",
+                "price": 0,
+                "unit": "$",
+                "router_page": "",
+                "category": "",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "View collection"
+            },
+            {
+                "id": "product_lop_49",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/Watch_accessoires_v1.jpg?v=1725992290&width=550",
+                "name": "Apple Watch Accessories",
+                "detail": "",
+                "price": 0,
+                "unit": "$",
+                "router_page": "",
+                "category": "",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "View collection"
+            },
+            {
+                "id": "product_lop_50",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/Airpods_PDP_Image_Position-1__LAES_550x_129647b3-c341-444c-855e-1a39291d903f.webp?v=1695334253&width=550",
+                "name": "Music Accessories",
+                "detail": "",
+                "price": 0,
+                "unit": "$",
+                "router_page": "",
+                "category": "",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "View collection"
+            },
+            {
+                "id": "product_lop_51",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/Apple_TV_Remote_PDP_Image_Position-1_LAEN_R1_v1_550x_4174711b-df52-4545-879d-8f3d304b8b17.webp?v=1695334228&width=550",
+                "name": "TV & Home Accessories",
+                "detail": "",
+                "price": 0,
+                "unit": "$",
+                "router_page": "",
+                "category": "",
+                "is_highlight": false,
+                "badge_label": [],
+                "learn_more_detail": "",
+                "button_text": "View collection"
+            },
+            {
+                "id": "product_lop_52",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/MM073.jpg?v=1695334787&width=550",
+                "name": "AirTag Accessories",
+                "detail": "",
+                "price": 0,
+                "unit": "$",
+                "router_page": "",
+                "category": "",
+                "is_highlight": false,
+                "badge_label": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "learn_more_detail": "",
+                "button_text": "Buy now"
+            }
+        ],
+        "banners": [
+            {
+                "id": "banner_mac_1",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/DS_banner_Mac_Desktop_2024.png?v=1715380368&width=750",
+                "name": "MAC Banner",
+                "background_color": "#fafafa",
+                "router_page": "",
+                "button_text": "Compare all models",
+                "category": "MAC"
+            },
+            {
+                "id": "banner_iPad_2",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/DS_banner_iPad_Desktop_M4.png?v=1715099043&width=1200",
+                "name": "iPad Banner",
+                "background_color": "#fafafa",
+                "router_page": "",
+                "button_text": "Compare all models",
+                "category": "iPad"
+            },
+            {
+                "id": "banner_iphone_3",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/DS_banner_iPhone_Desktop_iPhoneLOB-Upgrade.png?v=1725999931&width=1200",
+                "name": "iPhone Banner",
+                "background_color": "#fafafa",
+                "router_page": "",
+                "button_text": "Compare all models",
+                "category": "iPhone"
+            },
+            {
+                "id": "banner_watch_4",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/DS_Banner_Watch_Desktop_2024.png?v=1726000999&width=1200",
+                "name": "Watch Banner",
+                "background_color": "#fafafa",
+                "router_page": "",
+                "button_text": "Compare all models",
+                "category": "Watch"
+            },
+            {
+                "id": "banner_music_5",
+                "img_src": "https://www.appstaging.dev/cdn/shop/files/DS_banner_AirPods_Desktop.png?v=1726178769&width=1200",
+                "name": "",
+                "background_color": "#fafafa",
+                "router_page": "",
+                "button_text": "Compare all models",
+                "category": "Music"
+            }
+        ]
+    }
+}

@@ -8,7 +8,7 @@ const SidemageWithContent = ({ item, posistionImage = 'left' }) => {
   return (
     <div className="grid grid-cols-2 rounded-lg bg-gray-f2f2f2">
         {posistionImage === 'left' && 
-            <div className='w-610px h-366px justify-self-end'>
+            <div dir="ltr" className='w-610px h-366px justify-self-end'>
                 <img className='w-auto h-full rounded-s-lg' src={item.imageUrl} alt={item.title} />
             </div>
         }
@@ -20,8 +20,8 @@ const SidemageWithContent = ({ item, posistionImage = 'left' }) => {
             </div>
         </div>
         {posistionImage === 'right' && 
-            <div className='w-610px h-366px justify-self-end'>
-                <img className='w-auto h-full' src={item.imageUrl} alt={item.title} />
+            <div dir="rtl" className='w-610px h-366px justify-self-end'>
+                <img className='w-auto h-full rounded-s-lg' src={item.imageUrl} alt={item.title} />
             </div>
         }
     </div>
