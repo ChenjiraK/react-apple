@@ -18,7 +18,7 @@ const CardThumbnailVertical = ({ item }) => {
                     <p className='text-sm pb-4'>From {item.price}</p>
                     <MainButton>Buy Now</MainButton>
                     <div style={styleWidthImage}>
-                        <img className="h-full" src={item.imageSrc} alt={item.name} />
+                        <img className="h-full" src={item.imgSrc} alt={item.name} />
                     </div>
                 </div>
             </div>

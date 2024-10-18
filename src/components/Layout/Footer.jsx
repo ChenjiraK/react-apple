@@ -94,7 +94,7 @@ function Footer(){
         },
     ]
     return(
-        <footer className='flex justify-around pt-16'>
+        <footer className='flex justify-around py-4'>
             {menus.map((menu, index) => (
                 <div key={`menu_${index}`}>
                     {/* Main Menu Item */}

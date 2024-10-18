@@ -11,7 +11,7 @@
                 "router_page": "",
                 "category": "MAC",
                 "is_highlight": true,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -31,7 +31,7 @@
                 "router_page": "",
                 "category": "MAC",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "Buy now"
             },
@@ -45,7 +45,7 @@
                 "router_page": "",
                 "category": "MAC",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -65,7 +65,7 @@
                 "router_page": "",
                 "category": "MAC",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "Buy now"
             },
@@ -79,7 +79,7 @@
                 "router_page": "",
                 "category": "MAC",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "Buy now"
             },
@@ -93,7 +93,7 @@
                 "router_page": "",
                 "category": "MAC",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "Buy now"
             },
@@ -107,7 +107,7 @@
                 "router_page": "",
                 "category": "MAC",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "Buy now"
             },
@@ -121,7 +121,7 @@
                 "router_page": "",
                 "category": "MAC",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "View collection"
             },
@@ -135,7 +135,7 @@
                 "router_page": "",
                 "category": "iPad",
                 "is_highlight": true,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -155,7 +155,7 @@
                 "router_page": "",
                 "category": "iPad",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -180,7 +180,7 @@
                 "router_page": "",
                 "category": "iPad",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -200,7 +200,7 @@
                 "router_page": "",
                 "category": "iPad",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "Buy now"
             },
@@ -214,7 +214,7 @@
                 "router_page": "",
                 "category": "iPad",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 7,
                         "badge_label": "SALE",
@@ -234,7 +234,7 @@
                 "router_page": "",
                 "category": "iPad",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -254,7 +254,7 @@
                 "router_page": "",
                 "category": "iPhone",
                 "is_highlight": true,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -274,7 +274,7 @@
                 "router_page": "",
                 "category": "iPhone",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -294,7 +294,7 @@
                 "router_page": "",
                 "category": "iPhone",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "Buy now"
             },
@@ -308,7 +308,7 @@
                 "router_page": "",
                 "category": "iPhone",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "Buy now"
             },
@@ -322,7 +322,7 @@
                 "router_page": "",
                 "category": "iPhone",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "Buy now"
             },
@@ -336,7 +336,7 @@
                 "router_page": "",
                 "category": "iPhone",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 10,
                         "badgeLabel": "TRADE–IN",
@@ -361,7 +361,7 @@
                 "router_page": "",
                 "category": "iPhone",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 2,
                         "badge_label": "FREE AIRPODS",
@@ -381,7 +381,7 @@
                 "router_page": "",
                 "category": "iPhone",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 3,
                         "badge_label": "CYBER WEEK",
@@ -401,7 +401,7 @@
                 "router_page": "",
                 "category": "iPhone",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "Buy now"
             },
@@ -415,7 +415,7 @@
                 "router_page": "",
                 "category": "iPhone",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -435,7 +435,7 @@
                 "router_page": "",
                 "category": "Watch",
                 "is_highlight": true,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -455,7 +455,7 @@
                 "router_page": "",
                 "category": "Watch",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -475,7 +475,7 @@
                 "router_page": "",
                 "category": "Watch",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -495,7 +495,7 @@
                 "router_page": "",
                 "category": "Watch",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -515,7 +515,7 @@
                 "router_page": "",
                 "category": "Watch",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "Buy now"
             },
@@ -529,7 +529,7 @@
                 "router_page": "",
                 "category": "Watch",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "Buy now"
             },
@@ -543,7 +543,7 @@
                 "router_page": "",
                 "category": "Watch",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 4,
                         "badge_label": "UPGRADE",
@@ -563,7 +563,7 @@
                 "router_page": "",
                 "category": "Watch",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "Buy now"
             },
@@ -577,7 +577,7 @@
                 "router_page": "",
                 "category": "Watch",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -597,7 +597,7 @@
                 "router_page": "",
                 "category": "Music",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -617,7 +617,7 @@
                 "router_page": "",
                 "category": "Music",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -637,7 +637,7 @@
                 "router_page": "",
                 "category": "Music",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -657,7 +657,7 @@
                 "router_page": "",
                 "category": "Music",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -677,7 +677,7 @@
                 "router_page": "",
                 "category": "Music",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "Buy now"
             },
@@ -691,7 +691,7 @@
                 "router_page": "",
                 "category": "Music",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "Buy now"
             },
@@ -705,7 +705,7 @@
                 "router_page": "",
                 "category": "Music",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "View collection"
             },
@@ -719,7 +719,7 @@
                 "router_page": "",
                 "category": "Home",
                 "is_highlight": true,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "Buy now"
             },
@@ -733,7 +733,7 @@
                 "router_page": "",
                 "category": "Home",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "Buy now"
             },
@@ -747,7 +747,7 @@
                 "router_page": "",
                 "category": "Home",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "Buy now"
             },
@@ -761,7 +761,7 @@
                 "router_page": "",
                 "category": "Home",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "Learn more"
             },
@@ -775,7 +775,7 @@
                 "router_page": "",
                 "category": "Accessories",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "View collection"
             },
@@ -789,7 +789,7 @@
                 "router_page": "",
                 "category": "Accessories",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -809,7 +809,7 @@
                 "router_page": "",
                 "category": "Accessories",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "View collection"
             },
@@ -823,7 +823,7 @@
                 "router_page": "",
                 "category": "",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -843,7 +843,7 @@
                 "router_page": "",
                 "category": "",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",
@@ -863,7 +863,7 @@
                 "router_page": "",
                 "category": "",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "View collection"
             },
@@ -877,7 +877,7 @@
                 "router_page": "",
                 "category": "",
                 "is_highlight": false,
-                "badge_label": [],
+                "badges": [],
                 "learn_more_detail": "",
                 "button_text": "View collection"
             },
@@ -891,7 +891,7 @@
                 "router_page": "",
                 "category": "",
                 "is_highlight": false,
-                "badge_label": [
+                "badges": [
                     {
                         "id": 1,
                         "badge_label": "NEW",

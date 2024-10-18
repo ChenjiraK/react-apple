@@ -1,0 +1,972 @@
+{
+    "banners": [
+        {
+            "id": "home_banner_1",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/iPhonePro-banner-desktop_823b9450-f1ca-46d5-b1ec-a23fdb3f7869.jpg?v=1726000109&width=1200",
+            "name": "iphone 16 Pro",
+            "background_color": "#000000",
+            "router_page": "",
+            "button_text": "",
+            "category": null
+        },
+        {
+            "id": "home_banner_2",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/Watch-series10-desktop_2dc6d00b-57f0-40b9-b52e-448ebd441022.png?v=1726000321&width=1200",
+            "name": "watch series 10",
+            "background_color": "#f5f5f7",
+            "router_page": "",
+            "button_text": "",
+            "category": null
+        },
+        {
+            "id": "home_banner_3",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/Watch-SE-banner-desktop.png?v=1726001621&width=1200",
+            "name": "Watch SE",
+            "background_color": "#f5f5f7",
+            "router_page": "",
+            "button_text": "",
+            "category": null
+        },
+        {
+            "id": "home_banner_4",
+            "image_src": "https://media.studio7thailand.com/148810/iPhone15Dis5000-1400x700-190824_310824.jpg",
+            "name": "iPhone 15 Pro",
+            "background_color": "#f2f2f2",
+            "router_page": "",
+            "button_text": "",
+            "category": null
+        },
+        {
+            "id": "home_banner_5",
+            "image_src": "https://media.studio7thailand.com/134922/DAPP_iPad_Pro_DesktopW1400xH700px.jpg",
+            "name": "iPad Pro",
+            "background_color": "#f2f2f2",
+            "router_page": "",
+            "button_text": "",
+            "category": null
+        }
+    ],
+    "categories": [
+        { 
+            "id": "cat_1", 
+            "title": "Mac", 
+            "price": 5199, 
+            "other_price": null, 
+            "unit": "$",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/mac_9dbb5d65-8ce8-4515-b0ea-29624f76c18b_1.png?v=1701794541" 
+        },
+        { 
+            "id": "cat_2", 
+            "title": "iPhone", 
+            "price": 5200, 
+            "other_price": null, 
+            "unit": "$",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/2.LOB-iPhone_0fb05017-ff20-42a7-a778-6442d40c10db.png?v=1701796526" 
+        },
+        { 
+            "id": "cat_3", 
+            "title": "iPad", 
+            "price": 4567, 
+            "other_price": null, 
+            "unit": "$",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/lob-stripe-Ipad-050724-2.png?v=1715098480" 
+        },
+        { 
+            "id": "cat_4", 
+            "title": "Watch", 
+            "price": 578, 
+            "other_price": null, 
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/4.LOB-Watch.png?v=1695308897&width=90//www.appstaging.dev/cdn/shop/files/4.LOB-Watch.png?v=1695308897&width=180//www.appstaging.dev/cdn/shop/files/4.LOB-Watch.png?v=1695308897&width=375//www.appstaging.dev/cdn/shop/files/4.LOB-Watch.png?v=1695308897&width=400" 
+        },
+        { 
+            "id": "cat_5", 
+            "title": "Music", 
+            "price": 1900, 
+            "other_price": null, 
+            "unit": "$",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/5.LOB-Music.png?v=1695308897&width=90//www.appstaging.dev/cdn/shop/files/5.LOB-Music.png?v=1695308897&width=180//www.appstaging.dev/cdn/shop/files/5.LOB-Music.png?v=1695308897&width=375//www.appstaging.dev/cdn/shop/files/5.LOB-Music.png?v=1695308897&width=400" 
+        },
+        { 
+            "id": "cat_6", 
+            "title": "TV & Home", 
+            "price": 2400, 
+            "unit": "$",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/6.LOB-TV_Home.png?v=1695308897" 
+        },
+        { 
+            "id": "cat_7", 
+            "title": "Accessories", 
+            "price": 2400, 
+            "other_price": null, 
+            "unit": "$",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/accessories-iphone.png?v=1709565246" 
+            },
+        { 
+            "id": "cat_8", 
+            "title": "Entertainment", 
+            "price": 0,
+            "other_price": "See offers", 
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/8.LOB-Entertainment.png?v=1695308897" 
+        },
+        { 
+            "id": "cat_9", 
+            "title": "Airtag", 
+            "price": 899, 
+            "other_price": null, 
+            "unit": "$",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/9.LOB-AirTag.png?v=1695308897" 
+        }
+    ],
+    "new_products": [
+        { 
+            "id": "product_1", 
+            "badges": [
+                {
+                    "id": 1,
+                    "badge_label": "NEW",
+                    "badge_color": "#bf4800"
+                }
+            ],
+            "name": "MacBook Air M3", 
+            "detail":"Lean. Mean. M3 machine.", 
+            "unit": "$",
+            "price": 5199, 
+            "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/MacBook_Air_15-in_M3_Chip_Midnight_Hero_Horizontal_Screen__USEN.jpg?v=1709561887&width=256" 
+        },
+        { 
+            "id": "product_3", 
+            "badges": [
+                {
+                    "id": 1,
+                    "badge_label": "NEW",
+                    "badge_color": "#bf4800"
+                }
+            ],
+            "name": "Watch Accessories", 
+            "detail":"Shop watch accessories.", 
+            "unit": "$",
+            "price": 5199, 
+            "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/What_s_New_Watch-Accessories.png?v=1695309067&width=256" 
+        },
+        { 
+            "id": "product_4", 
+            "badges": [
+                {
+                    "id": 1,
+                    "badge_label": "NEW",
+                    "badge_color": "#bf4800"
+                }
+            ],
+            "name": "iPhone Accessories", 
+            "detail":"Shop iPhone accessories.", 
+            "unit": "$",
+            "price": 5199, 
+            "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/iphone-15-silicone-case-with-magsafe-pink_MWN93_AV1_26f2e0aa-851c-4f55-9edc-b590f82db638.png?v=1709585453&width=256" 
+        },
+        { 
+            "id": "product_5", 
+            "badges": [
+                {
+                    "id": 1,
+                    "badge_label": "NEW",
+                    "badge_color": "#bf4800"
+                }
+            ],
+            "name": "iPad Accessories", 
+            "detail":"Shop iPad accessories", 
+            "price": 5199, 
+            "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/iPad_Pro_13-inch_M4_Chip_Wi-Fi_Magic_Keyboard_Pro_Apple_Pencil_Pro_Hero_Horizontal_Screen__USEN.png?v=1715100290&width=256" 
+        },
+        { 
+            "id": "product_6", 
+            "badges": [
+                {
+                    "id": 1,
+                    "badge_label": "NEW",
+                    "badge_color": "#bf4800"
+                }
+            ],
+            "name": "Apple Pencil Pro", 
+            "detail":"Shop Apple Pencil Pro.", 
+            "unit": "$",
+            "price": 5199, 
+            "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/Apple_Pencil_Pro_PDP_Image_Position-2__en-US.png?v=1715101422&width=256" 
+        },
+        { 
+            "id": "product_7", 
+            "badges": [
+                {
+                    "id": 1,
+                    "badge_label": "NEW",
+                    "badge_color": "#bf4800"
+                }
+            ],
+            "name": "iPad Air M2", 
+            "detail":"Fresh Air.", 
+            "unit": "$",
+            "price": 5199, 
+            "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/iPad_Air_M2_Chip_Cellular_Hero_Vertical_Screen__USEN.png?v=1715100498&width=256"
+        },
+        { 
+            "id": "product_8", 
+            "badges": [
+                {
+                    "id": 1,
+                    "badge_label": "NEW",
+                    "badge_color": "#bf4800"
+                }
+            ],
+            "name": "iPad Pro M4", 
+            "detail":"Thinpossible", 
+            "unit": "$",
+            "price": 5199, 
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/iPad_Pro_13-inch_M4_Chip_Cellular_Hero_Vertical_Screen__USEN.png?v=1715099322&width=256" 
+        }
+    ],
+    "discover_services": [
+        {
+            "id": "discover_service_1",
+            "badges": [
+                {
+                    "id": 12,
+                    "badge_label": "PICKUP",
+                    "badge_color": "#707070"
+                }
+            ],
+            "text": "<div><span style='color:#707070'>Delivery and Pickup. </span><span>Order online and get home delivery.</span></div>"
+        },
+        {
+            "id": "discover_service_2",
+            "badges": [
+                {
+                    "id": 3,
+                    "badge_label": "CYBER WEEK",
+                    "badge_color": "#5856D6"
+                }
+            ],
+            "text": "<div><span>Exclusive deals online only. Four days</span><span style='color:#707070'> August 1-4. </span></div>"
+        },
+        {
+            "id": "discover_service_3",
+            "badges": [
+                {
+                    "id": 4,
+                    "badge_label": "UPGRADE",
+                    "badge_color": "#0071bc"
+                }
+            ],
+            "text": "<div><span>Upgrade your.</span><span style='color:#0071bc'> iPhone 11 / iPhone 12 </span></div>"
+        },
+        {
+            "id": "discover_service_4",
+            "badges": [
+                {
+                    "id": 5,
+                    "badge_label": "FINANCING",
+                    "badge_color": "#0071bc"
+                }
+            ],
+            "text": "<div><span> Get special financing.</span><span style='color:#0071bc'> Pay over time, interest-free. </span></div>"
+        },
+        {
+            "id": "discover_service_5",
+            "badges": [
+                {
+                    "id": 6,
+                    "badge_label": "IN STORE",
+                    "badge_color": "#707070"
+                }
+            ],
+            "text": "<p><span>Learn, create, and be inspired in</span><span style='color:#707070'> hands-on sessions at your store. </span></p>"
+        },
+        {
+            "id": "discover_service_6",
+            "badges": [
+                {
+                    "id": 7,
+                    "badge_label": "SALE",
+                    "badge_color": "#008900"
+                }
+            ],
+            "text": "<div><span style='color:#008900'> Find low everyday prices and buy</span><span> online for delivery or in-store pick-up. </span></div>"
+        }
+    ],
+    "products_highlight" : [
+        {
+            "id": "product_highlight_1",
+            "badges": [
+                {
+                    "id": 1,
+                    "badge_label": "NEW",
+                    "badge_color": "#bf4800"
+                }
+            ],
+            "name": "iPad Pro M4",
+            "detail": "Thinpossible.",
+            "price": 5999,
+            "unit": "$",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/iPad_Pro_13-inch_M4_Chip_Cellular_Hero_Vertical_Screen__USEN.png?v=1715099322&width=550"
+          },
+          {
+            "id": "product_highlight_2",
+            "badges": [],
+            "name": "iPhone 15 Pr0",
+            "detail": "Titanium.",
+            "price": 5999,
+            "unit": "$",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/iPhone_15_Pro_Max_TT.jpg?v=1701814949&width=550"
+          },
+          {
+            "id": "product_highlight_3",
+            "badges": [],
+            "name": "Apple Watch Series 9",
+            "detail": "Smarter. Brighter. Mightier.",
+            "price": 5999,
+            "unit": "$",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/Apple_Watch_Series_9_Cellular_41mm_Silver_Aluminum_Storm_Blue_Sport_Band_34FR_Screen__USEN_daf0d6da-0906-4909-ba36-e312b34e9c39.png?v=1701815070&width=550"
+          }
+    ],
+    "shop_cyber_week": [
+        {
+          "id": "product_week_1",
+          "order": 0,
+          "badges": [
+            {
+              "id": 1,
+              "badgeLabel": "NEW",
+              "badgeColor": "#bf4800"
+            }
+          ],
+          "name": "13-inch MacBook Air",
+          "original_price": 6000,
+          "discount": 301,
+          "unit": "$",
+          "discount_price": "",
+          "total_price": 5699,
+          "installment": "$814.14/mo. for 7 mo.",
+          "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/IMG-5561181_627467b5-2f30-4864-a9b9-7c8f5106422b_533x.jpg?v=1722030121"
+        },
+        {
+          "id": "product_week_2",
+          "order": 1,
+          "badges": [
+            {
+                "id": 1,
+                "badgeLabel": "NEW",
+                "badgeColor": "#bf4800"
+            }
+          ],
+          "name": "2021 10.2-inch iPad",
+          "original_price": 5399,
+          "discount": 0,
+          "unit": "$",
+          "discount_price": "",
+          "total_price": 5399,
+          "installment": "$771.28/mo. for 7 mo.",
+          "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/IMG-9021287_26dbd499-660f-40fd-a1cc-b83320369375_533x.jpg?v=1713382279"
+        },
+        {
+          "id": "product_week_3",
+          "order": 3,
+          "badges": [
+            {
+                "id": 2,
+                "badgeLabel": "FREE AIRPODS",
+                "badgeColor": "#bf4800"
+            }
+          ],
+          "name": "iPhone 13 Pro Max",
+          "original_price": 5999,
+          "discount": 0,
+          "unit": "$",
+          "discount_price": "",
+          "total_price": 5999,
+          "installment": "$857/mo. for 7 mo.",
+          "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/iPhone_13_Pro_Max_Graphite_PDP_Image_Position-1A__en-US_d91b587b-43ca-4312-a6bf-5b8739a3e87c_533x.jpg?v=1707225620"
+        },
+        {
+          "id": "product_week_4",
+          "order": 4,
+          "badges": [
+            {
+                "id": 1,
+                "badgeLabel": "NEW",
+                "badgeColor": "#bf4800"
+            }
+          ],
+          "name": "13-inch MacBook Air",
+          "original_price": 6000,
+          "discount": 301,
+          "unit": "$",
+          "discount_price": "",
+          "total_price": 5699,
+          "installment": "$814.14/mo. for 7 mo.",
+          "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/IMG-5561181_627467b5-2f30-4864-a9b9-7c8f5106422b_533x.jpg?v=1722030121"
+        },
+        {
+          "id": "product_week_5",
+          "order": 5,
+          "badges": [
+            {
+                "id": 3,
+                "badgeLabel": "CYBER WEEK",
+                "badgeColor": "#5856D6"
+            }
+          ],
+          "name": "Magic Mouse 2",
+          "original_price": 5099,
+          "discount": 0,
+          "unit": "$",
+          "discount_price": "",
+          "total_price": 5099,
+          "installment": "$728.42/mo. for 7 mo.",
+          "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/IMG-4477839_533x.png?v=1713384885"
+        }
+    ],
+    "trade_in_devices": [
+        {
+            "id": "device_1",
+            "badges": [
+                {
+                    "id": 3,
+                    "badge_label": "CYBER WEEK",
+                    "badge_color": "#5856D6"
+                }
+            ],
+            "name": "iPhone 13",
+            "original_price": 5900,
+            "unit": "$",
+            "discount": 0,
+            "unit_discount": "PERCENT",
+            "total_price": 5900,
+            "installment": "$785.57/mo. for 7 mo.",
+            "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/IMG-111808_b172a068-7975-4797-b9c7-c72f979c40f5_533x.jpg?v=1713383046"
+        },
+        {
+            "id": "device_2",
+            "badges": [
+                {
+                    "id": 10,
+                    "badge_label": "TRADE–IN",
+                    "badge_color": "#0071BC"
+                }
+            ],
+            "name": "Apple Watch Series 8",
+            "original_price": 5900,
+            "unit": "$",
+            "discount": 0,
+            "unit_discount": "PERCENT",
+            "installment": "$785.57/mo. for 7 mo.",
+            "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/Apple_Watch_Series_8_LTE_41mm_Midnight_Aluminum_Midnight_Sport_Band_PDP_Image_Position-1__en-US_17fa6968-d2c4-4bbc-99b0-dbe19a0c8d34_533x.jpg?v=1699340561"
+        },
+        {
+            "id": "device_3",
+            "badges": [
+                {
+                    "id": 3,
+                    "badge_label": "CYBER WEEK",
+                    "badge_color": "#5856D6"
+                },
+                {
+                    "id": 10,
+                    "badge_label": "TRADE–IN",
+                    "badge_color": "#0071BC"
+                }
+            ],
+            "name": "2022 11-inch iPad Pro",
+            "original_price": 5900,
+            "unit": "$",
+            "discount": 0,
+            "unit_discount": "PERCENT",
+            "total_price": 5900,
+            "installment": "$828.42/mo. for 7 mo.",
+            "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/IMG-9159046_142fcba2-fe60-4eff-976d-fc36025c655a_533x.jpg?v=1713384589"
+        },
+        {
+            "id": "device_4",
+            "badges": [
+                {
+                    "id": 10,
+                    "badge_label": "TRADE–IN",
+                    "badge_color": "#0071BC"
+                }
+            ],
+            "name": "14-inch MacBook Pro",
+            "original_price": 5900,
+            "unit": "$",
+            "discount": 0,
+            "unit_discount": "PERCENT",
+            "total_price": 5900,
+            "installment": "$999.85/mo. for 7 mo",
+            "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/MacBook_Pro_14_in_Silver_PDP_Image_Position-1__en-US_533x.jpg?v=1693610404"
+        },
+        {
+            "id": "device_5",
+            "badges": [
+                {
+                    "id": 2,
+                    "badge_label": "FREE AIRPODS",
+                    "badge_color": "#bf4800"
+                }
+            ],
+            "name": "iPhone 13 Pro Max",
+            "original_price": 5900,
+            "unit": "$",
+            "discount": 0,
+            "unit_discount": "PERCENT",
+            "total_price": 5900,
+            "installment": "$857/mo. for 7 mo.",
+            "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/iPhone_13_Pro_Max_Graphite_PDP_Image_Position-1A__en-US_d91b587b-43ca-4312-a6bf-5b8739a3e87c_533x.jpg?v=1707225620"
+        }
+    ],
+    "support_services": [
+        {
+          "id": "service_1",
+          "icon": "fa-regular fa-user",
+          "title": "Get expert service and support",
+          "detail": "From setting up your device to replacing the screen, Apple Support has you covered.",
+          "link": ""
+        },
+        {
+          "id": "service_2",
+          "icon": "fa-regular fa-credit-card",
+          "title": "Financing and credit plans",
+          "detail": "Pay over time or pay with your Apple Card and get 3% daily cash back. The choice is yours.",
+          "link": ""
+        },
+        {
+          "id": "service_3",
+          "icon": "fa-solid fa-truck",
+          "title": "Buy online, pick up in-store",
+          "detail": "Place your order online and pick it up at a local store.",
+          "link": ""
+        }
+    ],
+    "all_of_apple": {
+        "id": 1,
+        "title": "All things iPad.",
+        "items": [
+            {
+                "id": "product_1",
+                "badges": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "name": "2024 Apple Pencil Pro",
+                "original_price": 5900,
+                "unit": "$",
+                "discount": 10,
+                "unit_discount": "PERCENT",
+                "total_price": 5310,
+                "installment": "$785.57/mo. for 7 mo.",
+                "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/IMG-13079419_533x.jpg?v=1715112693"
+            },
+            {
+                "id": "product_2",
+                "badges": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "name": "Magic Keyboard for iPad Pro 11‑inch",
+                "original_price": 5900,
+                "unit": "$",
+                "discount": 10,
+                "unit_discount": "PERCENT",
+                "total_price": 5310,
+                "installment": "$785.57/mo. for 7 mo.",
+                "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/IMG-13087521_ab743aaf-ef10-46aa-a6d2-e78039b8323d_533x.jpg?v=1715112319"
+            },
+            {
+                "id": "product_3",
+                "badges": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "name": "Smart Folio for iPad Pro 13-inch",
+                "original_price": 5900,
+                "unit": "$",
+                "discount": 10,
+                "unit_discount": "PERCENT",
+                "total_price": 5310,
+                "installment": "$785.57/mo. for 7 mo.",
+                "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/IMG-13079443_533x.jpg?v=1715112464"
+            },
+            {
+                "id": "product_4",
+                "badges": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "name": "Smart Folio for iPad Air 11-inch",
+                "original_price": 5900,
+                "unit": "$",
+                "discount": 10,
+                "unit_discount": "PERCENT",
+                "total_price": 5310,
+                "installment": "$785.57/mo. for 7 mo.",
+                "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/IMG-13079423_533x.jpg?v=1715112318"
+            },
+            {
+                "id": "product_5",
+                "badges": [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+                "name": "35W Dual USB-C Port Power Adapter",
+                "original_price": 5900,
+                "unit": "$",
+                "discount": 10,
+                "unit_discount": "PERCENT",
+                "total_price": 5310,
+                "installment": "$785.57/mo. for 7 mo.",
+                "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/IMG-12330703___resized_4000_4000_533x.png?v=1718732133"
+            }
+        ]
+    },
+    "apple_accessories":[
+        {
+            "id": "accessory_1",
+            "badges": [],
+            "name": "Mac Accessories",
+            "detail": "Shop Mac Accessories.",
+            "unit": "$",
+            "price": 5025,
+            "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/IMG-14666163.png?v=1726245034&width=256"
+        },
+        {
+            "id": "accessory_2",
+            "badges": [
+                {
+                    "id": 1,
+                    "badge_label": "NEW",
+                    "badge_color": "#bf4800"
+                }
+            ],
+            "name": "iPad Accessories",
+            "detail": "Shop iPad Accessories.",
+            "unit": "$",
+            "price": 5025,
+            "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/Magic_Keyboard_11_Pro_Silver.png?v=1715100914&width=256"
+        },
+        {
+            "id": "accessory_3",
+            "badges": [],
+            "name": "Apple TV Accessories",
+            "detail": "Shop TV Accessories.",
+            "unit": "$",
+            "price": 5025,
+            "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/Apple_TV_Remote_PDP_Image_Position-1_LAEN_R1_v1_550x_4174711b-df52-4545-879d-8f3d304b8b17.webp?v=1695334228&width=256"
+        },
+        {
+            "id": "accessory_4",
+            "badges": [
+                {
+                    "id": 1,
+                    "badge_label": "NEW",
+                    "badge_color": "#bf4800"
+                }
+            ],
+            "name": "Watch Accessories",
+            "detail": "Shop Watch Accessories.",
+            "unit": "$",
+            "price": 5025,
+            "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/Watch_accessoires_v1.jpg?v=1725992290&width=256"
+        },
+        {
+            "id": "accessory_5",
+            "badges": [
+                {
+                    "id": 1,
+                    "badge_label": "NEW",
+                    "badge_color": "#bf4800"
+                }
+            ],
+            "name": "iPhone Accessories",
+            "detail": "Shop iPhone Accessories.",
+            "unit": "$",
+            "price": 5025,
+            "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/IMG-14666163.png?v=1726245034&width=256"
+        }
+    ],
+    "assists": [
+        {
+            "id": "assist_1",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/Untitled_1500x.png?v=1695334787",
+            "title": "Need help?",
+            "detail": "Trained professionals have got you covered on all your questions.",
+            "btn_text": "Ask the experts",
+            "route_url": ""
+        },
+        {
+            "id": "assist_2",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/Tienda_MC9_png_1500x.webp?v=1695334787",
+            "title": "Stores near you.",
+            "detail": "Find your nearest store.",
+            "btn_text": "Find a store",
+            "route_url": ""
+        },
+        {
+            "id": "assist_3",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/screenshot-2015-08-28-09-22-31_png_1500x.webp?v=1702582399",
+            "title": "Join a class.",
+            "detail": "Discover all the classes we offer.",
+            "btn_text": "RSVP",
+            "route_url": ""
+        }
+    ],
+    "apple_cares": [
+        {
+            "id": "applecare_1",
+            "badges": [],
+            "detail": "AppleCare+ from $00 for 2 years.",
+            "detail2": "Add AppleCare+ when you purchase your iPhone online or in-store.",
+            "name": "Mac",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/AppleCare_Mac_PDP_Image_Position-1_Update23__en-US.jpg?v=1709567944&width=256"
+        },
+        {
+            "id": "applecare_2",
+            "badges": [],
+            "detail": "AppleCare+ from $00 for 2 years.",
+            "detail2": "Add AppleCare+ when you purchase your iPhone online or in-store.",
+            "name": "iPad",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/AppleCare_iPad_Pro_13-inch_M4_Chip_Wi-Fi_Space_Black_Screen__USEN_f1f3c834-c1b4-4ce9-8635-5223e2267e3c.png?v=1715715311&width=256"
+        },
+        {
+            "id": "applecare_3",
+            "badges": [],
+            "detail": "AppleCare+ from $00 for 2 years.",
+            "detail2": "Add AppleCare+ when you purchase your iPhone online or in-store.",
+            "name": "iPhone",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/AppleCare_iPhone_PDP_Image_Position-1_Update24__en-US.jpg?v=1726003889&width=256"
+        },
+        {
+            "id": "applecare_4",
+            "badges": [],
+            "detail": "AppleCare+ from $00 for 2 years.",
+            "detail2": "Add AppleCare+ when you purchase your iPhone online or in-store.",
+            "name": "Apple Watch",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/AppleCare_Watch_PDP_Image_Position-1_Update24__en-US.jpg?v=1726003913&width=256"
+        },
+        {
+            "id": "applecare_5",
+            "badges": [],
+            "detail": "AppleCare+ from $00 for 2 years.",
+            "detail2": "Add AppleCare+ when you purchase your iPhone online or in-store.",
+            "name": "Headphones",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/AppleCare_Headphones_PDP_Image_Position-1_Update24__en-US.jpg?v=1726003931&width=256"
+        },
+        {
+            "id": "applecare_6",
+            "badges": [],
+            "detail": "AppleCare+ from $00 for 2 years.",
+            "detail2": "Add AppleCare+ when you purchase your iPhone online or in-store.",
+            "name": "HomePod",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/AppleCare_HomePod_PDP_Image_Position-1__en-US_e7ebc292-c4b5-4347-812d-df6f4d8b7492.jpg?v=1701816158&width=256"
+        },
+        {
+            "id": "applecare_7",
+            "badges": [],
+            "detail": "AppleCare+ from $00 for 2 years.",
+            "detail2": "Add AppleCare+ when you purchase your iPhone online or in-store.",
+            "name": "Apple TV",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/AppleCare_AppleTV_PDP_Image_Position-1__en-US_d9a86693-09f4-472e-80dd-4106bc696712.jpg?v=1701816228&width=256"
+        }
+    ],
+    "quick_checkout": [
+        {
+            "id": "checkout_1",
+            "badges": [],
+            "name": "AirTag",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-6206978_2200x_b91f929e-632b-480b-9698-64ac9491e527_533x.webp?v=1696033003",
+            "original_price": 5900,
+            "unit": "$",
+            "discount": 10,
+            "unit_discount": "PERCENT",
+            "total_price": 5310,
+            "installment": "$785.57/mo. for 7 mo."
+        },
+        {
+            "id": "checkout_2",
+            "badges": [
+                {
+                    "id": 1,
+                    "badge_label": "NEW",
+                    "badge_color": "#bf4800"
+                }
+            ],
+            "name": "AirTag FineWoven Key Ring",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-14666077_533x.png?v=1726244801",
+            "original_price": 5900,
+            "unit": "$",
+            "discount": 10,
+            "unit_discount": "PERCENT",
+            "total_price": 5310,
+            "installment": "$785.57/mo. for 7 mo."
+        },
+        {
+            "id": "checkout_3",
+            "badges": [
+                {
+                    "id": 1,
+                    "badge_label": "NEW",
+                    "badge_color": "#bf4800"
+                }
+            ],
+            "name": "AirPods 4 with Active Noise Cancellation",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-14769919_533x.jpg?v=1726245079",
+            "original_price": 5900,
+            "unit": "$",
+            "discount": 10,
+            "unit_discount": "PERCENT",
+            "total_price": 5310,
+            "installment": "$785.57/mo. for 7 mo."
+        },
+        {
+            "id": "checkout_4",
+            "badges": [
+                {
+                    "id": 1,
+                    "badge_label": "NEW",
+                    "badge_color": "#bf4800"
+                }
+            ],
+            "name": "iPhone 16 Plus Silicone Case with MagSafe",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-14666134_533x.png?v=1726244943",
+            "original_price": 5900,
+            "unit": "$",
+            "discount": 10,
+            "unit_discount": "PERCENT",
+            "total_price": 5310,
+            "installment": "$785.57/mo. for 7 mo."
+        },
+        {
+            "id": "checkout_5",
+            "badges": [],
+            "name": "35W Dual USB-C Port Compact Power Adapter",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-11827591_533x.png?v=1713382892",
+            "original_price": 5900,
+            "unit": "$",
+            "discount": 10,
+            "unit_discount": "PERCENT",
+            "total_price": 5310,
+            "installment": "$785.57/mo. for 7 mo."
+        },
+        {
+            "id": "checkout_6",
+            "badges": [],
+            "name": "60W USB-C Charge Cable (1 m)",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-7783489_533x.jpg?v=1713384357",
+            "original_price": 5900,
+            "unit": "$",
+            "discount": 10,
+            "unit_discount": "PERCENT",
+            "total_price": 5310,
+            "installment": "$785.57/mo. for 7 mo."
+        },
+        {
+            "id": "checkout_7",
+            "badges": [],
+            "name": "Apple Watch Magnetic Fast Charger to USB-C Cable (1 m)",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/MLWJ3_533x.png?v=1693569552",
+            "original_price": 5900,
+            "unit": "$",
+            "discount": 10,
+            "unit_discount": "PERCENT",
+            "total_price": 5310,
+            "installment": "$785.57/mo. for 7 mo."
+        },
+        {
+            "id": "checkout_8",
+            "badges": [],
+            "name": "Belkin BOOST CHARGE PRO 3-in-1 Wireless Charging Pad with Magnatic",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/HPU72_1_533x.jpg?v=1714509936",
+            "original_price": 5900,
+            "unit": "$",
+            "discount": 10,
+            "unit_discount": "PERCENT",
+            "total_price": 5310,
+            "installment": "$785.57/mo. for 7 mo."
+        },
+        {
+            "id": "checkout_9",
+            "badges": [],
+            "name": "Belkin BOOSTCHARGE PRO 3-in-1 Wireless Charging Pad with Magnatic",
+            "image_src": "https://www.appstaging.dev/cdn/shop/files/HPU82_533x.jpg?v=1714511531",
+            "original_price": 5900,
+            "unit": "$",
+            "discount": 10,
+            "unit_discount": "PERCENT",
+            "total_price": 5310,
+            "installment": "$785.57/mo. for 7 mo."
+        }
+    ],
+    "view_in_stores": [
+        {
+          "id": "store_1",
+          "badges": [
+            {
+                "badgeLabel": "IN STORE",
+                "badgeColor": "#707070"
+            }
+          ],
+          "name": "Delivery and pick up",
+          "detail": "Get free delivery or in-store pick up.",
+          "detail2": "Pick up your online order at the Apple Store.",
+          "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/image_118.png?v=1695334253&width=256"
+        },
+        {
+          "id": "store_2",
+          "badges": [
+            {
+                "badgeLabel": "IN STORE",
+                "badgeColor": "#707070"
+            }
+          ],
+          "name": "Find a store",
+          "detail": "Shop the latest Apple products.",
+          "detail2": "More ways to shop: Find an Apple Store or another retailer near you.",
+          "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/image_118_9e50e4eb-b522-4f35-88d8-d6abffc60505.png?v=1695334255&width=256"
+        },
+        {
+          "id": "store_3",
+          "badges": [
+            {
+                "badgeLabel": "IN STORE",
+                "badgeColor": "#707070"
+            }
+          ],
+          "name": "Join a class",
+          "detail": "Free sessions.",
+          "detail2": "Free sessions that inspire hands-on creativity in photography, art, music and more.",
+          "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/APP_Block_image_688ab9ee-9d83-4f39-8f1c-9efe82370fa7.png?v=1695334253&width=256"
+        },
+        {
+          "id": "store_4",
+          "badges": [
+            {
+                "badgeLabel": "IN STORE",
+                "badgeColor": "#707070"
+            }
+          ],
+          "name": "Appointments",
+          "detail": "Apple Support has you covered.",
+          "detail2": "From setting up your device to recovering your Apple ID to replacing the screen, Apple Support has you covered.",
+          "image_src": "https://cdn.shopify.com/s/files/1/0818/1304/5566/files/image_110.png?v=1695334253&width=256"
+        }
+    ]
+}

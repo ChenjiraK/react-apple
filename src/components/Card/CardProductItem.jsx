@@ -8,7 +8,7 @@ const CardProductItem = ({ item }) => {
   return (
     <div className="max-w-294px text-center">
         <div className="border border-gray-400 rounded-lg w-full h-full max-h-294px max-w-294px mb-2 p-4">
-            <img className="w-full h-full" src={item.imageSrc} alt={item.name} />
+            <img className="w-full h-full" src={item.imgSrc} alt={item.name} />
         </div>
         <div className="flex justify-center gap-1">
             {item.badges.map((badge, index)=> (

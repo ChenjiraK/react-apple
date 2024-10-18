@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-const ProductCarousel = ({ children, items = [] }) => {
+const ProductCarousel = ({ children, items = [], slidesPerView = 3, loop = true, pagination = true }) => {
     const swiperRef = useRef(null);
     if(!items.length) {
       return ;
@@ -22,18 +22,16 @@ const ProductCarousel = ({ children, items = [] }) => {
         }
       };
     return (
-        <div className='relative w-slide'>
+        <div className='relative'>
             <Swiper
                 onSwiper={(swiper) => (swiperRef.current = swiper)}
-                slidesPerView={3}
+                slidesPerView={slidesPerView}
                 spaceBetween={30}
-                pagination={{
-                    clickable: true,
-                }}
+                pagination={pagination ? {clickable: true} : false}
                 navigation={false}
                 mousewheel={false}
                 keyboard={true}
-                loop={true}
+                loop={loop}
                 modules={[Navigation, Pagination, Mousewheel, Keyboard]}
                 className="">
                     {items.map((item, index) => (

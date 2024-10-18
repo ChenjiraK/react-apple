@@ -10,9 +10,9 @@ const IconWithContent = ({ item }) => {
         <Icon className='text-3xl' icon={item.icon} />
         <h2 className='pt-4'>{item.title}</h2>
         <p className='min-h-20'>{item.detail}</p>
-        <a className='pt-4 flex items-center gap-2 justify-center' href=' '>
-            <p>Learn more</p>
-            <Icon icon="fa-solid fa-chevron-right"></Icon>
+        <a className='pt-4 flex items-center gap-2 justify-center hover:opacity-50' href=' '>
+            <p className='font-semibold text-btn-0071e3'>Learn more</p>
+            <Icon icon="fa-solid fa-chevron-right" className='text-xs text-btn-0071e3'></Icon>
         </a>
     </div>
   );

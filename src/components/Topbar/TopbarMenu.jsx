@@ -1,11 +1,11 @@
 
 import ExampleCategories from '../../Json/ExampleCategories.json';
-import { CategoriesListModel } from '../../model/CategoriesModel';
+import { CategoryListModel } from '../../model/CategoryModel';
 import MenuDropdown from '../Input/MenuDropdown';
 
 function TopbarMenu(){
     const datas = ExampleCategories;
-    const barMenu = datas.categories.map((item) => new CategoriesListModel(item));
+    const barMenu = datas.categories.map((item) => new CategoryListModel(item));
     const otherMenu = [
         {
             id: 9,

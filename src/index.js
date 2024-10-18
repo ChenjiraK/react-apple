@@ -5,6 +5,8 @@ import './index.scss';
 import './style/main.scss';
 import './style/slide.scss';
 import App from './App';
+import store from './redux/Store';
+import { Provider } from 'react-redux';
 import reportWebVitals from './reportWebVitals';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
@@ -15,12 +17,12 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 library.add(fas, fab, far);
 
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
+  //   <App />
+  // </React.StrictMode>
+  <Provider store={store}>
     <App />
-  </React.StrictMode>
+  </Provider>,
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

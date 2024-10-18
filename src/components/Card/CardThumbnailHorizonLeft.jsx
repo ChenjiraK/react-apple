@@ -12,7 +12,7 @@ const CardThumbnailHorizonLeft = ({ item }) => {
         <div className='bg-white flex justify-center p-6 shadow-sm h-full'>
             <div className='grid grid-cols-2'>
                 <div className="flex justify-center" style={styleWidthImage}>
-                    <img className="h-full" src={item.imageSrc} alt={item.name} />
+                    <img className="h-full" src={item.imgSrc} alt={item.name} />
                 </div>
                 <div className="flex justify-center">
                     <div className="text-center self-center">

@@ -33,7 +33,7 @@
         {
             "id": 7,
             "badge_label": "SALE",
-            "badgeColor": "008900"
+            "badgeColor": "#008900"
         },
         {
             "id": 8,
@@ -54,6 +54,11 @@
             "id": 11,
             "badgeLabel": "PRE–ORDER",
             "badgeColor": "#336e7b"
+        },
+        {
+            "id": 12,
+            "badgeLabel": "PICKUP",
+            "badgeColor": "#707070"
         }
     ]
 }

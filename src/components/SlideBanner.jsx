@@ -2,43 +2,10 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useSnapCarousel } from 'react-snap-carousel';
 import '../style/slide.scss'
 
-const SlideBanner = () => {
+const SlideBanner = ({ bannerList = [] }) => {
     const { scrollRef, goTo, pages } = useSnapCarousel();
     const [currentIndex, setCurrentIndex] = useState(0);
     const autoplayInterval = useRef(null);
-    const bannerList = [
-        {
-            id:1,
-            url:'https://media.studio7thailand.com/143963/NewWebsiteStudio7Promotion-1400x700-190824_310824.jpg',
-            backgroundColor: '#f2f2f2',
-            route: ''
-        },
-        {
-            id:2,
-            url:'https://media.studio7thailand.com/148810/iPhone15Dis5000-1400x700-190824_310824.jpg',
-            backgroundColor: '#f2f2f2',
-            route: ''
-        },
-        {
-            id:3,
-            url:'https://media.studio7thailand.com/143964/NewWebsiteStudio7Promotion-600x500-190824_310824.jpg',
-            backgroundColor: '#f2f2f2',
-            route: ''
-        },
-        {
-            id:4,
-            url:'https://media.studio7thailand.com/148811/iPhone15Dis5000-600x500-190824_310824.jpg',
-            backgroundColor: '#f2f2f2',
-            route: ''
-        },
-        {
-            id:5,
-            url:'https://media.studio7thailand.com/134922/DAPP_iPad_Pro_DesktopW1400xH700px.jpg',
-            backgroundColor: '#f2f2f2',
-            route: ''
-        }
-    ]
-
     //* function
     const handleChangeBanner = (index) => {
         setCurrentIndex(index);
@@ -70,7 +37,7 @@ const SlideBanner = () => {
             <div onScroll={handleScroll} className='hide-scroll' ref={scrollRef} style={{ display: 'flex', overflowX: 'scroll', scrollSnapType: 'x mandatory' }}>
                 {bannerList.map((banner) => (
                     <div key={banner.id} style={{ flex: '0 0 100%', scrollSnapAlign: 'start', backgroundColor: `${banner.backgroundColor}`, height: '400px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                        <img className='h-full' src={banner.url} alt="Banner" />
+                        <img className='h-full' src={banner.imgSrc} alt="Banner" />
                     </div>
                 ))}
             </div>
