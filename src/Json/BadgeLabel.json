@@ -28,37 +28,37 @@
         {
             "id": 6,
             "badge_label": "IN STORE",
-            "badgeColor": "#707070"
+            "badge_color": "#707070"
         },
         {
             "id": 7,
             "badge_label": "SALE",
-            "badgeColor": "#008900"
+            "badge_color": "#008900"
         },
         {
             "id": 8,
-            "badgeLabel": "FREE AIRPODS",
-            "badgeColor": "#bf4800"
+            "badge_label": "FREE AIRPODS",
+            "badge_color": "#bf4800"
         },
         {
             "id": 9,
-            "badgeLabel": "FREE GIFT AND OFFER",
-            "badgeColor": "#5856D6"
+            "badge_label": "FREE GIFT AND OFFER",
+            "badge_color": "#5856D6"
         },
         {
             "id": 10,
-            "badgeLabel": "TRADE–IN",
-            "badgeColor": "#0071bc"
+            "badge_label": "TRADE–IN",
+            "badge_color": "#0071bc"
         },
         {
             "id": 11,
-            "badgeLabel": "PRE–ORDER",
-            "badgeColor": "#336e7b"
+            "badge_label": "PRE–ORDER",
+            "badge_color": "#336e7b"
         },
         {
             "id": 12,
-            "badgeLabel": "PICKUP",
-            "badgeColor": "#707070"
+            "badge_label": "PICKUP",
+            "badge_color": "#707070"
         }
     ]
 }

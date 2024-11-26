@@ -9,6 +9,7 @@ import CardProductItem from '../components/Card/CardProductItem.jsx';
 import Slide from '../components/Layout/Slide.jsx';
 import LoopSlide from '../components/Layout/LoopSlide.jsx';
 import SlideBanner from "../components/SlideBanner.jsx";
+import SlideCategory from '../components/SlideCategory.jsx';
 import IconWithContent from '../components/Card/IconWithContent.jsx';
 import SidemageWithContent from '../components/Card/SidemageWithContent.jsx';
 //redux
@@ -38,7 +39,7 @@ function Landing() {
     useEffect(() => {
         /** clear data */
         dispatch(clearData());
-        /** clear get data */
+        /** get data */
         dispatch(getLanding());
 
     }, [dispatch]);

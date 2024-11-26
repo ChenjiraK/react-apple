@@ -3,6 +3,7 @@
         {
             "id": 1,
             "name": "Mac",
+            "min_price": 41000,
             "sub_categories": [
                 {
                     "id": 1,
@@ -86,6 +87,7 @@
         {
             "id": 2,
             "name": "iPad",
+            "min_price": 14000,
             "sub_categories": [
                 {
                     "id": 12,
@@ -148,6 +150,7 @@
         {
             "id": 3,
             "name": "iPhone",
+            "min_price": 34900,
             "sub_categories": [
                 {
                     "id": 19,
@@ -245,6 +248,7 @@
         {
             "id": 4,
             "name": "Watch",
+            "min_price": 6900,
             "sub_categories": [
                 {
                     "id": 32,
@@ -335,6 +339,7 @@
         {
             "id": 5,
             "name": "Music",
+            "min_price": 3000,
             "sub_categories": [
                 {
                     "id": 44,
@@ -418,6 +423,7 @@
         {
             "id": 6,
             "name": "TV & Home",
+            "min_price": 5200,
             "sub_categories": [
                 {
                     "id": 55,
@@ -466,6 +472,7 @@
         {
             "id": 7,
             "name": "Accessories",
+            "min_price": 150,
             "sub_categories": [
                 {
                     "id": 61,
@@ -528,6 +535,7 @@
         {
             "id": 8,
             "name": "Service",
+            "min_price": 0,
             "sub_categories": [
                 {
                     "id": 69,
@@ -562,6 +570,7 @@
         {
             "id": 9,
             "name": "Offers",
+            "min_price": 0,
             "sub_categories": [
                 {
                     "id": 73,

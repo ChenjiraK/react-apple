@@ -1,0 +1,559 @@
+{
+    "data": [
+        {
+            "title": "Macbook Pro",
+            "slug": "macbook-pro",
+            "items": [
+                {
+                    "id": "product_plp_1",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-11189700_58e91440-d6be-4c40-82ac-d6b20ea87fec_550x.jpg?v=1713384270",
+                    "name": "16-inch MacBook Pro M3 Max",
+                    "detail": "Mind-blowing. Head-turning.",
+                    "price": 6799,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "Learn More",
+                    "button_text": "Buy now"
+                },
+                {
+                    "id": "product_plp_2",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-11189700_fd10105c-fde8-4fff-a6a4-2519b6aee333_550x.jpg?v=1713384158",
+                    "name": "16-inch MacBook Pro M3 Pro",
+                    "detail": "Mind-blowing. Head-turning.",
+                    "price": 6799,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "Learn More",
+                    "button_text": "Buy now"
+                },
+                {
+                    "id": "product_plp_3",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-11189680_550x.jpg?v=1713383310",
+                    "name": "14-inch MacBook Pro M3 Max",
+                    "detail": "Mind-blowing. Head-turning.",
+                    "price": 6599,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "Learn More",
+                    "button_text": "Buy now"
+                },
+                {
+                    "id": "product_plp_4",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-11189680_550x.jpg?v=1713383310",
+                    "name": "14-inch MacBook Pro M3 Pro",
+                    "detail": "Mind-blowing. Head-turning.",
+                    "price": 6599,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "Learn More",
+                    "button_text": "Buy now"
+                },
+                {
+                    "id": "product_plp_5",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-11189680_550x.jpg?v=1713383310",
+                    "name": "14-inch MacBook Pro M3",
+                    "detail": "Mind-blowing. Head-turning.",
+                    "price": 6599,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "Learn More",
+                    "button_text": "Buy now"
+                },
+                {
+                    "id": "product_plp_6",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/MacBook_Pro_16-in_Space_Gray_PDP_Image_Position-1__en-US_13fcf897-5952-4e29-ab96-f75478689b03_550x.jpg?v=1693610823",
+                    "name": "16-inch MacBook Pro",
+                    "detail": "Mover. Maker. Boundary breaker.",
+                    "price": 8099,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [
+                        {
+                            "id": 9,
+                            "badgeLabel": "FREE GIFT AND OFFER",
+                            "badgeColor": "#5856D6"
+                        }
+                    ],
+                    "learn_more_detail": "Learn More",
+                    "button_text": "Buy now"
+                },
+                {
+                    "id": "product_plp_7",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/MacBook_Pro_14-in_Space_Gray_PDP_Image_Position-1__en-US_e3428187-4df1-42f2-b71d-b6f0080a405f_550x.jpg?v=1693610264",
+                    "name": "14-inch MacBook Pro",
+                    "detail": "Pro power to go.",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [
+                        {
+                            "id": 10,
+                            "badgeLabel": "TRADE–IN",
+                            "badgeColor": "#0071bc"
+                        }
+                    ],
+                    "learn_more_detail": "Learn More",
+                    "button_text": "Buy now"
+                },
+                {
+                    "id": "product_plp_8",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/MacBook_Pro_13_in_Space_Gray_PDP_Image_Position-1__en-US_550x.jpg?v=1693610048",
+                    "name": "13-inch MacBook Pro",
+                    "detail": "Ready. Set. Pro.",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "",
+                    "button_text": "Buy now"
+                }
+            ]
+        },
+        {
+            "title": "MacBook Air",
+            "slug": "macbook-air",
+            "items": [
+                {
+                    "id": "product_plp_9",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-12357272_98c2b57f-c36f-4fae-918c-92cfce8f2453_550x.jpg?v=1722029996",
+                    "name": "15-inch MacBook Air",
+                    "detail": "Lean. Mean. M3 machine.",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "Learn More",
+                    "button_text": "Buy now"
+                },
+                {
+                    "id": "product_plp_10",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-12357237_f229561f-30a4-42c9-a8d7-0364f3102bf5_550x.jpg?v=1722030011",
+                    "name": "13-inch MacBook Air",
+                    "detail": "Lean. Mean. M3 machine.",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "Learn More",
+                    "button_text": "Buy now"
+                }
+            ]
+        },
+        {
+            "title": "iMac",
+            "slug": "imac",
+            "items": [
+                {
+                    "id": "product_plp_11",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-11189607_550x.jpg?v=1713384815",
+                    "name": "24-inch iMac with Retina 4.5K display M3",
+                    "detail": "Packed with more juice.",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "Learn More",
+                    "button_text": "Buy now"
+                },
+                {
+                    "id": "product_plp_12",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/iMac_24-in_Blue_2-port_PDP_Image_Position-1__en-US_5fc179bc-583d-4259-a148-d84e6cf8eb5b_550x.jpg?v=1696033006",
+                    "name": "24-inch iMac with Retina 4.5K display M1",
+                    "detail": "Say hello to iMac.",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "Learn More",
+                    "button_text": "Buy now"
+                }
+            ]
+        },
+        {
+            "title": "Mac mini",
+            "slug": "mac-mini",
+            "items": [
+                {
+                    "id": "product_plp_13",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-8281988_93da3fce-6430-4485-814c-1ceb6d7a5e15_550x.jpg?v=1713384187",
+                    "name": "Mac mini (M2)",
+                    "detail": "Mac mini. Supercharged by M2 and M2 Pro.",
+                    "price": 5799,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "Learn More",
+                    "button_text": "Buy now"
+                },
+                {
+                    "id": "product_plp_14",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-8281988_93da3fce-6430-4485-814c-1ceb6d7a5e15_550x.jpg?v=1713384187",
+                    "name": "Mac mini (M2 Pro)",
+                    "detail": "Mac mini. Supercharged by M2 and M2 Pro.",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "Learn More",
+                    "button_text": "Buy now"
+                }
+            ]
+        },
+        {
+            "title": "Mac Studio",
+            "slug": "mac-studio",
+            "items": [
+                {
+                    "id": "product_plp_15",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-9347635_550x.jpg?v=1713383169",
+                    "name": "Mac Studio (M2 Ultra, 2023)",
+                    "detail": "A true powerhouse for business.",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "Learn More",
+                    "button_text": "Buy now"
+                },
+                {
+                    "id": "product_plp_16",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-9347635_550x.jpg?v=1713383169",
+                    "name": "Mac Studio (M2 Max, 2023)",
+                    "detail": "A true powerhouse for business.",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "Learn More",
+                    "button_text": "Buy now"
+                },
+                {
+                    "id": "product_plp_17",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-9347635_550x.jpg?v=1713383169",
+                    "name": "Mac Studio",
+                    "detail": "Scary Fast",
+                    "price": 5799,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "Learn More",
+                    "button_text": "Buy now"
+                }
+            ]
+        },
+        {
+            "title": "Studio Display",
+            "slug": "studio-displays",
+            "items": [
+                {
+                    "id": "product_plp_18",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-4570111_550x.jpg?v=1713382820",
+                    "name": "Studio Display - Nano-texture glass - Tilt- and height-adjustable stand",
+                    "detail": "A sight to be bold.",
+                    "price": 7299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "",
+                    "button_text": "Buy now"
+                },
+                {
+                    "id": "product_plp_19",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-4570111_31d47b47-0405-465e-bf7c-19e15c93c5b1_550x.jpg?v=1713385001",
+                    "name": "Studio Display - Standard glass - Tilt- and height-adjustable stand",
+                    "detail": "A sight to be bold.",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                   "learn_more_detail": "",
+                    "button_text": "Buy now"
+                },
+                {
+                    "id": "product_plp_20",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-4570111_31d47b47-0405-465e-bf7c-19e15c93c5b1_550x.jpg?v=1713385001",
+                    "name": "Studio Display - Nano-texture glass - Tilt-adjustable stand",
+                    "detail": "A sight to be bold.",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "",
+                    "button_text": "Buy now"
+                },
+                {
+                    "id": "product_plp_21",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-4570111_31d47b47-0405-465e-bf7c-19e15c93c5b1_550x.jpg?v=1713385001",
+                    "name": "Studio Display - Standard glass - Tilt-adjustable stand",
+                    "detail": "A sight to be bold.",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "",
+                    "button_text": "Buy now"
+                },
+                {
+                    "id": "product_plp_22",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-4570111_31d47b47-0405-465e-bf7c-19e15c93c5b1_550x.jpg?v=1713385001",
+                    "name": "Studio Display - Standard glass - VESA mount adapter",
+                    "detail": "A sight to be bold.",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "",
+                    "button_text": "Buy now"
+                },
+                {
+                    "id": "product_plp_23",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-4570111_31d47b47-0405-465e-bf7c-19e15c93c5b1_550x.jpg?v=1713385001",
+                    "name": "Studio Display - Nano-texture glass - VESA mount adapter",
+                    "detail": "A sight to be bold.",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "MAC",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "",
+                    "button_text": "Buy now"
+                }
+            ]
+        },
+        {
+            "title": "iPad Pro",
+            "slug": "ipad-pro",
+            "items": [
+                {
+                    "id": "product_plp_24",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-13184905_550x.jpg?v=1722029884",
+                    "name": "13-inch iPad Pro M4",
+                    "detail": "Thinpossible",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "iPad",
+                    "is_highlight": false,
+                    "badges": [
+                        {
+                            "id": 1,
+                            "badge_label": "NEW",
+                            "badge_color": "#bf4800"
+                        }
+                    ],
+                    "learn_more_detail": "Learn More",
+                    "button_text": "Buy now"
+                },
+                {
+                    "id": "product_plp_25",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-13184865_f233f0ae-ed04-47a9-a4b5-b35b1ebba3ec_550x.jpg?v=1722029989",
+                    "name": "11-inch iPad Pro M4",
+                    "detail": "",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "iPad",
+                    "is_highlight": false,
+                    "badges": [
+                        {
+                            "id": 1,
+                            "badge_label": "NEW",
+                            "badge_color": "#bf4800"
+                        }
+                    ],
+                    "learn_more_detail": "",
+                    "button_text": "Buy now"
+                },
+                {
+                    "id": "product_plp_26",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-9159146_e5e97f17-dee5-42ab-8a4f-0b90969bd930_550x.jpg?v=1713384960",
+                    "name": "2022 12.9-inch iPad Pro <div class='sub-title'>6th generation</div>",
+                    "detail": "iPad Pro. Supercharged by M2.",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "iPad",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "Learn More",
+                    "button_text": "Buy now"
+                },
+                {
+                    "id": "product_plp_27",
+                    "image_src": "https://www.appstaging.dev/cdn/shop/files/IMG-9159046_142fcba2-fe60-4eff-976d-fc36025c655a_550x.jpg?v=1713384589",
+                    "name": "2022 11-inch iPad Pro <div class='sub-title'>4th generation</div>",
+                    "detail": "iPad Pro. Supercharged by M2.",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "iPad",
+                    "is_highlight": false,
+                    "badges": [
+                        {
+                            "id": 3,
+                            "badge_label": "CYBER WEEK",
+                            "badge_color": "#5856D6"
+                        },
+                        {
+                            "id": 10,
+                            "badgeLabel": "TRADE–IN",
+                            "badgeColor": "#0071bc"
+                        }
+                    ],
+                    "learn_more_detail": "Learn More",
+                    "button_text": "Buy now"
+                }
+            ]
+        },
+        {
+            "title": "",
+            "slug": "",
+            "items": [
+                {
+                    "id": "product_plp_",
+                    "image_src": "",
+                    "name": "",
+                    "detail": "",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "",
+                    "button_text": "Buy now"
+                }
+            ]
+        },
+        {
+            "title": "",
+            "slug": "",
+            "items": [
+                {
+                    "id": "product_plp_",
+                    "image_src": "",
+                    "name": "",
+                    "detail": "",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "",
+                    "button_text": "Buy now"
+                }
+            ]
+        },
+        {
+            "title": "",
+            "slug": "",
+            "items": [
+                {
+                    "id": "product_plp_",
+                    "image_src": "",
+                    "name": "",
+                    "detail": "",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "",
+                    "button_text": "Buy now"
+                }
+            ]
+        },
+        {
+            "title": "",
+            "slug": "",
+            "items": [
+                {
+                    "id": "product_plp_",
+                    "image_src": "",
+                    "name": "",
+                    "detail": "",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "",
+                    "button_text": "Buy now"
+                }
+            ]
+        },
+        {
+            "title": "",
+            "slug": "",
+            "items": [
+                {
+                    "id": "product_plp_",
+                    "image_src": "",
+                    "name": "",
+                    "detail": "",
+                    "price": 6299,
+                    "unit": "$",
+                    "router_page": "",
+                    "category": "",
+                    "is_highlight": false,
+                    "badges": [],
+                    "learn_more_detail": "",
+                    "button_text": "Buy now"
+                }
+            ]
+        }
+    ]
+}
