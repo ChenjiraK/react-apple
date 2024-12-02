@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useSnapCarousel } from "react-snap-carousel";
 import { FontAwesomeIcon as Icon } from '@fortawesome/react-fontawesome';
 
-const Slide = ({ children }) => {
+const Slide = ({ children, positionCss = '' }) => {
     const {
         scrollRef,
         next,
@@ -61,7 +61,7 @@ const Slide = ({ children }) => {
     }
   return (
     <div className='relative'>
-        <div ref={elemContentRef} className="flex justify-start">
+        <div ref={elemContentRef} className={`flex ${positionCss ? positionCss : 'justify-start'}`}>
             <div className='w-slide'>
                 <div
                     className="flex overflow-x-auto hide-scroll py-6 w-slide"
