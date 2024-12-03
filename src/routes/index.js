@@ -3,8 +3,13 @@ import { useRoutes, useLocation } from 'react-router-dom';
 /** pages */
 import Landing from '../pages/Landing';
 import ProductLOB from '../pages/LOBPage.jsx';
+import Login from '../pages/Login.jsx';
 
 const routes = [
+    {
+        path: '/login',
+        element: <Login />,
+    },
     {
         path: '/',
         element: <Landing />,
@@ -12,7 +17,7 @@ const routes = [
     {
         path: '/view-all/:slug',
         element: <ProductLOB />
-    }
+    },
 ];
 
 const Routes = () => {
