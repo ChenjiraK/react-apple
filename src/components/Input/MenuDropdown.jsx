@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import { emits } from '../../helper/EmitData';
 
 function MenuDropdown({ children, dropdownList, onChangeItem, onClickDropdown , customClass = '' }){
 
@@ -35,13 +36,6 @@ function MenuDropdown({ children, dropdownList, onChangeItem, onClickDropdown , 
         if(!item) return;
         emits(onChangeItem, item);
         closeDropdown();
-    }
-    const emits = (emitFunc, value) => {
-        if (typeof emitFunc === 'function') {
-            return emitFunc(value);
-        } else {
-            console.error('emits is not a function');
-        }
     }
     const ListArea = () => {
         return (<>

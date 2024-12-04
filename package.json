@@ -2,6 +2,7 @@
   "name": "react-apple",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3001",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
@@ -17,6 +18,9 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "axios": "^1.7.8",
     "bcrypt": "^5.1.1",
     "mysql2": "^3.11.3",
     "passport": "^0.7.0",
@@ -33,6 +37,7 @@
     "sass": "^1.77.8",
     "swiper": "^11.1.12",
     "typeorm": "^0.3.20",
+    "typescript": "^5.7.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
