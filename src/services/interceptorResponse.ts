@@ -1,5 +1,5 @@
-export const successRes = (response) => response;
+export const successRes = (response:any) => response;
 
-export const errorRes = async (err) => {
+export const errorRes = async (err:any) => {
 	return Promise.reject(err);
 };

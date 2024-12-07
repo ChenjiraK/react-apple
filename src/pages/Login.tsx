@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from 'react-redux';
-import InputTextHover from '../components/Input/InputTextHover.js';
-import MainButton from "../components/Button/MainButton.js";
-import { login } from "../redux/actions/AuthAction.js";
+import InputTextHover from '../components/Input/InputTextHover';
+import MainButton from "../components/Button/MainButton";
+import { login } from "../redux/actions/AuthAction";
 import { RootState, AppDispatch } from '../redux/Store';
 
 const Login : React.FC = () => {
@@ -40,7 +40,7 @@ const Login : React.FC = () => {
                     </p>
                     <div className="flex justify-center mt-5">
                         <MainButton onClick={handleSubmit}>
-                            Sign In
+                            { authState.loading ? 'loading...' : 'Sign In' }
                         </MainButton>
                     </div>
                     <div className="flex items-center my-4 text-gray-500">

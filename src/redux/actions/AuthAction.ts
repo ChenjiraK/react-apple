@@ -1,7 +1,7 @@
 // store/authActions.ts
 import { Dispatch } from '@reduxjs/toolkit';
 import { loginStart, loginSuccess, loginFailure, logout } from '../store/AuthStore';
-import { apiLogin } from '@/services/api/login.api';
+import { apiLogin } from '../../services/api/login.api';
 import { ILogin } from '@/types/ILogin';
 
 // ตัวอย่าง: Action สำหรับ Login

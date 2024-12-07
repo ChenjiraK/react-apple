@@ -1,11 +1,10 @@
 
 import React from "react";
-import { ReactComponent as MyIcon } from "../../assets/premium-partner.svg"; // Adjust the path as necessary
 
 const PremiumPartnerLogo: React.FC = () => {
     return (
       <div>
-        <MyIcon />
+        <img src={'../../assets/premium-partner-logo.png'} alt="Logo" />
       </div>
     );
   };

@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 //component
-import SlideCategory from '../components/SlideCategory.jsx';
-import SlideBanner from "../components/SlideBanner.jsx";
+// import SlideCategory from '../components/SlideCategory';
+import SlideBanner from "../components/SlideBanner";
 //redux
 import { useSelector, useDispatch } from 'react-redux';
-import { getProductByType, getCategoryType, clearData } from "../redux/ProductLOB.js";
+import { getProductByType, getCategoryType, clearData } from "../redux/ProductLOB";
 import { AppDispatch, RootState } from '../redux/Store';
 
 function LOBPage() {
@@ -14,7 +14,7 @@ function LOBPage() {
     const { 
         banners,
         categories,
-        productLOB,
+        // productLOB,
      } = useSelector((state: RootState) => state.productLOB);
 
     useEffect(() => {

@@ -1,11 +1,11 @@
-// src/App.js (React.js)
+
+import React from 'react';
 import Header from './components/Layout/Header'
 import Footer from './components/Layout/Footer';
-import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Routes from './routes';
 
-function App() {
+const App : React.FC = () => {
     return (
         <div className='font-medium'>
             <Header />
@@ -21,3 +21,4 @@ function App() {
 }
 
 export default App;
+

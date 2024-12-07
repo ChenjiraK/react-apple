@@ -1,7 +1,7 @@
 import React from 'react';
-import BadgeLabel from './Label/BadgeLabel.jsx';
+import BadgeLabel from './Label/BadgeLabel';
 import Slide from './Layout/Slide';
-import { IProduct } from '@/types/IProduct.js';
+import { IProduct } from '@/types/IProduct';
 
 type SlideCategoryProps = {
     items: IProduct[]

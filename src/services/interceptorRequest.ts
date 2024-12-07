@@ -1,4 +1,4 @@
-export const successReq = (request) => {
+export const successReq = (request:any) => {
 	const accessToken = localStorage.getItem('access_token');
 
 	if (accessToken) {
@@ -8,4 +8,4 @@ export const successReq = (request) => {
 	return request;
 };
 
-export const errorReq = (err) => Promise.reject(err);
+export const errorReq = (err:any) => Promise.reject(err);

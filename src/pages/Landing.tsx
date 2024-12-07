@@ -1,19 +1,19 @@
 import React, { useEffect } from 'react';
 //component
-import CategoryItem from "../components/Category/CategoryItem.jsx";
-import CardDetailItem from '../components/Card/CardDetailItem.jsx';
-import CardTextItem from '../components/Card/CardTextItem.jsx';
-import CardThumbnailHorizonLeft from '../components/Card/CardThumbnailHorizonLeft.jsx';
-import CardThumbnailVertical from '../components/Card/CardThumbnailVertical.jsx';
-import CardProductItem from '../components/Card/CardProductItem.jsx';
-import Slide from '../components/Layout/Slide.jsx';
-import LoopSlide from '../components/Layout/LoopSlide.jsx';
-import SlideBanner from "../components/SlideBanner.jsx";
-import IconWithContent from '../components/Card/IconWithContent.jsx';
-import SidemageWithContent from '../components/Card/SidemageWithContent.jsx';
+import CategoryItem from "../components/Category/CategoryItem";
+import CardDetailItem from '../components/Card/CardDetailItem';
+import CardTextItem from '../components/Card/CardTextItem';
+import CardThumbnailHorizonLeft from '../components/Card/CardThumbnailHorizonLeft';
+import CardThumbnailVertical from '../components/Card/CardThumbnailVertical';
+import CardProductItem from '../components/Card/CardProductItem';
+import Slide from '../components/Layout/Slide';
+import LoopSlide from '../components/Layout/LoopSlide';
+import SlideBanner from "../components/SlideBanner";
+import IconWithContent from '../components/Card/IconWithContent';
+import SidemageWithContent from '../components/Card/SidemageWithContent';
 //redux
 import { useSelector, useDispatch } from 'react-redux';
-import { getLanding, clearData } from "../redux/Home.js";
+import { getLanding, clearData } from "../redux/Home";
 import { AppDispatch, RootState } from '../redux/Store';
 
 const Landing : React.FC = () =>  {

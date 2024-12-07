@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon as Icon } from '@fortawesome/react-fontawesome';
 import { faChevronUp , faChevronDown } from "@fortawesome/free-solid-svg-icons";
-import MenuDropdown from '../Input/MenuDropdown.jsx';
-import { IDropdownItem } from "@/types/IDropdown.js";
+import MenuDropdown from '../Input/MenuDropdown';
+import { IDropdownItem } from "@/types/IDropdown";
 
 const SwitchLanguage : React.FC = () => {
     const [ currentLang , setCurrentLang ] = useState('English');

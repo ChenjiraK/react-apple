@@ -1,5 +1,5 @@
 export default class Util {
-    static normalObject(obj) {
+    static normalObject(obj: any) {
         if (!obj) {
             return null;
         }
