@@ -13,7 +13,6 @@ import { far } from '@fortawesome/free-regular-svg-icons';
 import App from './App.tsx';
 import reportWebVitals from './reportWebVitals';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 library.add(fas, fab, far);
 

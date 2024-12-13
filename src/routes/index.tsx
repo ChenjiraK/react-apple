@@ -4,20 +4,25 @@ import { useRoutes, useLocation, RouteObject } from "react-router-dom";
 import Landing from "../pages/Landing";
 import ProductLOB from "../pages/LOBPage";
 import Login from "../pages/Login";
+import Register from "../pages/Register.tsx";
 
 const routes: RouteObject[] = [
-  {
-    path: "/login",
-    element: <Login />,
-  },
-  {
-    path: "/",
-    element: <Landing />,
-  },
-  {
-    path: "/view-all/:slug",
-    element: <ProductLOB />,
-  },
+    {
+        path: "/login",
+        element: <Login />,
+    },
+    {
+        path: "/",
+        element: <Landing />,
+    },
+    {
+        path: "/register",
+        element: <Register />,
+    },
+    {
+        path: "/view-all/:slug",
+        element: <ProductLOB />,
+    },
 ];
 
 const Routes: React.FC = () => {

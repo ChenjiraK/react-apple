@@ -1,4 +1,4 @@
-export const emits = (fn: (value: any) => void, value: any) => {
+export const emits = (fn: ((value: any) => void) | undefined, value: any) => {
     if (fn) {
         fn(value);
       } else {

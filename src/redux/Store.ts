@@ -2,14 +2,16 @@ import { configureStore } from '@reduxjs/toolkit';
 // import thunk from 'redux-thunk';
 import Home from './Home';
 import ProductLOB from './ProductLOB';
-import authStore from './store/AuthStore';
+import loginStore from './store/LoginStore';
+import registerStore from './store/RegisterStore';
 
 // กำหนด store โดยเพิ่ม counterReducer เข้ามา
 const store = configureStore({
   reducer: {
     home: Home,
     productLOB: ProductLOB,
-    auth: authStore,
+    login: loginStore,
+    register: registerStore,
   },
 //   middleware: [thunk],
 });

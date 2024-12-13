@@ -17,7 +17,6 @@ import { getLanding, clearData } from "../redux/Home";
 import { AppDispatch, RootState } from '../redux/Store';
 
 const Landing : React.FC = () =>  {
-
     const dispatch: AppDispatch = useDispatch();
     const { 
         banners,
