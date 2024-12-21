@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import InputTextHover from '../components/Input/InputTextHover';
@@ -19,6 +19,13 @@ const Login: React.FC = () => {
    function goToRegister() {
       navigator('/register');
    }
+
+   useEffect(() => {
+      if (loginState.isSuccess) {
+         navigator('/');
+      }
+   }, [loginState.isSuccess, navigator]);
+
    return (
       <div>
          <h1 className="text-center pt-10 pb-5">Log In</h1>

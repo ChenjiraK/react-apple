@@ -8,7 +8,6 @@ import Util from '../helper/Utility';
 import { register } from '../redux/actions/AuthAction';
 import { RootState, AppDispatch } from '../redux/Store';
 import { useNavigate } from 'react-router-dom';
-import notify from '../components/Alert/Alert';
 
 const Register: React.FC = () => {
    const navigator = useNavigate();

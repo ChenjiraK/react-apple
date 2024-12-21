@@ -18,7 +18,7 @@ export const login = (params: ILogin) => async (dispatch: Dispatch) => {
    dispatch(loginStart());
    try {
       const response = await apiLogin(params);
-      dispatch(loginSuccess(response));
+      dispatch(loginSuccess(response?.data));
    } catch (error: any) {
       dispatch(loginFailure(error.message || 'Login failed'));
       toast.error(error.message || 'Login failed');
@@ -32,6 +32,7 @@ export const register = (params: IRegister) => async (dispatch: Dispatch) => {
       dispatch(registerSuccess());
    } catch (error: any) {
       dispatch(registerFailure(error.message || 'register failed'));
+      toast.error(error.message || 'Register failed');
    }
 };
 
