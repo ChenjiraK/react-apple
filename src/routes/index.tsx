@@ -5,6 +5,7 @@ import Landing from "../pages/Landing";
 import ProductLOB from "../pages/LOBPage";
 import Login from "../pages/Login";
 import Register from "../pages/Register.tsx";
+import Profile from '../pages/Profile.tsx';
 
 const routes: RouteObject[] = [
     {
@@ -18,6 +19,10 @@ const routes: RouteObject[] = [
     {
         path: "/register",
         element: <Register />,
+    },
+    {
+        path: "/profile",
+        element: <Profile />,
     },
     {
         path: "/view-all/:slug",

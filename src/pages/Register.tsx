@@ -98,10 +98,10 @@ const Register: React.FC = () => {
                </div>
                <div className="pt-4">
                   <InputTextHover
-                     label="Last name"
-                     isError={Boolean(errors.lastname)}
-                     errorMsg={errors.lastname}
-                     onChange={(value) => handleChange({ lastname: value })}
+                     label="First name"
+                     isError={Boolean(errors.firstname)}
+                     errorMsg={errors.firstname}
+                     onChange={(value) => handleChange({ firstname: value })}
                   />
                </div>
                <div className="pt-4">
