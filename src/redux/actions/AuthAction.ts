@@ -10,9 +10,15 @@ import {
    registerSuccess,
    registerFailure,
 } from '../store/RegisterStore';
+import {
+   profileStart,
+   profileSuccess,
+   profileFailure,
+} from '../store/ProfileStore'
 import { apiLogin, apiRegister } from '../../services/api/auth.api';
 import { ILogin, IRegister } from '@/types/IAuth';
 import { toast } from 'react-toastify';
+import { apiGetProfile } from '../../services/api/profile.api';
 
 export const login = (params: ILogin) => async (dispatch: Dispatch) => {
    dispatch(loginStart());
@@ -36,7 +42,13 @@ export const register = (params: IRegister) => async (dispatch: Dispatch) => {
    }
 };
 
-export const performLogout = () => (dispatch: Dispatch) => {
-   // ล้างข้อมูลใน State
-   dispatch(logout());
-};
+export const getProfile = () => async (dispatch: Dispatch) => {
+   dispatch(profileStart());
+   try {
+      const response = await apiGetProfile();
+      dispatch(profileSuccess(response?.data));
+   } catch (error: any) {
+      dispatch(profileFailure(error.message || 'get profile failed'));
+      toast.error(error.message || 'get profile failed');
+   }
+}

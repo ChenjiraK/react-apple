@@ -1,32 +1,37 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { emits } from '../../helper/EmitData';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import '../../style/calendar.scss';
 import dayjs from 'dayjs';
+type ValuePiece = Date | null;
+type Value = ValuePiece | [ValuePiece, ValuePiece];
 
 type InputTextHoverProps = {
    label?: string;
    type?: string;
    isError?: boolean;
    errorMsg?: string;
+   value?: Value,
    onChange?: (value: string) => void;
 };
-
-type ValuePiece = Date | null;
-type Value = ValuePiece | [ValuePiece, ValuePiece];
 
 const InputCalendar: React.FC<InputTextHoverProps> = ({
    label = 'Label',
    type = 'text',
    isError = false,
    errorMsg = '',
+   value = null,
    onChange,
 }) => {
    const [isFocused, setIsFocused] = useState<boolean>(false);
    const [isShowCalendar, setIsShowCalendar] = useState<boolean>(false);
    const [dateValue, setDateValue] = useState<Value>(new Date());
    const [inputValue, setValue] = useState('');
+
+   useEffect(() => {
+      setDateValue(value)
+   }, [value]); // ทำงานเมื่อ props value เปลี่ยน
 
    function changeDate(date: Value) {
       setDateValue(date);

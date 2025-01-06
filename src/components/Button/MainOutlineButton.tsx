@@ -7,7 +7,7 @@ type MainOutlineButtonProps = {
 
 const MainOutlineButton : React.FC<MainOutlineButtonProps> = ({ children, onClick }) => {
     return (
-      <button className='rounded-full bg-transparent p-3 w-full text-btn-0071e3 border border-btn-0071e3 text-sm font-semibold' 
+      <button className='rounded-full bg-transparent p-3 w-full text-primary border border-primary text-sm font-semibold' 
         onClick={() => emits(onClick, null)}>
             {/* slot */}
             {children}

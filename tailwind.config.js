@@ -12,7 +12,7 @@ module.exports = {
       },
       colors: {
         'bagde-bf4800': '#bf4800',
-        'btn-0071e3': '#0071e3',
+        'primary': '#0071e3',
         'gray-f2f2f2': '#f2f2f2',
         'gray-d0d0d0': '#d0d0d0',
         'gray-7d7d7d': '#7d7d7d',

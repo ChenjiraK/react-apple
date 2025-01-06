@@ -1,3 +1,4 @@
+import MenuExpand from '../Input/MenuExpand.tsx';
 function Footer() {
   const menus = [
     {
@@ -93,59 +94,71 @@ function Footer() {
       ],
     },
   ];
-  return (
-    <footer className="flex justify-around py-4">
-      {menus.map((menu, index) => (
-        <div key={`menu_${index}`}>
-          {/* Main Menu Item */}
-          <div className="text-lg font-semibold">{menu.mainMenu}</div>
+  function FooterMenuDesktop() {
+    return (
+      <div>
+        {menus.map((menu, index) => (
+          <div key={`menu_${index}`}>
+            {/* Main Menu Item */}
+            <div className="text-lg font-semibold">{menu.mainMenu}</div>
 
-          {/* Submenu Items */}
-          <div className="pt-30px">
-            {menu.subMenu.map((sub, subIndex) => (
-              <p
-                key={`subIndex_${subIndex}`}
-                className="pb-4 cursor-pointer hover:underline tracking-wider"
-              >
-                {sub.name}
-              </p>
-            ))}
+            {/* Submenu Items */}
+            <div className="pt-30px">
+              {menu.subMenu.map((sub, subIndex) => (
+                <p
+                  key={`subIndex_${subIndex}`}
+                  className="pb-4 cursor-pointer hover:underline tracking-wider"
+                >
+                  {sub.name}
+                </p>
+              ))}
+            </div>
+          </div>
+        ))}
+        <div>
+          <div className="text-lg font-semibold">Apple Premium Partner</div>
+          <div className="w-100px pb-4 pt-30px">
+            <img
+              src={
+                'https://www.appstaging.dev/cdn/shop/files/Logo-Footer-Apple-Premium-Partner_100x@2x.svg?v=1704311490'
+              }
+              alt="Premium partner"
+            />
+          </div>
+          <div className="w-130px pb-4">
+            <img
+              src={
+                'https://www.appstaging.dev/cdn/shop/files/Autho_Ser_Provi_2ln_blk_US_051117_1eebbd09-930c-4776-a2ae-9b2d3555747a_130x@2x.svg?v=1704470823'
+              }
+              alt="Authorized Service Provider"
+            />
+          </div>
+          <div className="w-130px pb-4">
+            <img
+              src={
+                'https://www.appstaging.dev/cdn/shop/files/Authorized_Education_Specialist_2ln_blk_CAEN_110821_130x@2x.svg?v=1704312327'
+              }
+              alt="Authorized Education Specialist"
+            />
           </div>
         </div>
-      ))}
-      <div>
-        <div className="text-lg font-semibold">Apple Premium Partner</div>
-        <div className="w-100px pb-4 pt-30px">
-          <img
-            src={
-              'https://www.appstaging.dev/cdn/shop/files/Logo-Footer-Apple-Premium-Partner_100x@2x.svg?v=1704311490'
-            }
-            alt="Premium partner"
-          />
-        </div>
-        <div className="w-130px pb-4">
-          <img
-            src={
-              'https://www.appstaging.dev/cdn/shop/files/Autho_Ser_Provi_2ln_blk_US_051117_1eebbd09-930c-4776-a2ae-9b2d3555747a_130x@2x.svg?v=1704470823'
-            }
-            alt="Authorized Service Provider"
-          />
-        </div>
-        <div className="w-130px pb-4">
-          <img
-            src={
-              'https://www.appstaging.dev/cdn/shop/files/Authorized_Education_Specialist_2ln_blk_CAEN_110821_130x@2x.svg?v=1704312327'
-            }
-            alt="Authorized Education Specialist"
-          />
+        <div className="mt-16">
+          <div className="flex justify-between">
+            <div></div>
+            <div></div>
+          </div>
         </div>
       </div>
-      <div className="mt-16">
-        <div className="flex justify-between">
-          <div></div>
-          <div></div>
-        </div>
-      </div>
+    )
+  }
+  function FooterMenuMobile() {
+    return (<div>
+      MenuExpand
+    </div>)
+  }
+  return (
+    <footer className="flex justify-around py-4">
+      <div></div>
     </footer>
   );
 }

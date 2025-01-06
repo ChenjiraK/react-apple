@@ -14,9 +14,10 @@ export type IRegister = {
     birthdate: Date | string | null
 }
 export type IProfile = {
+    id: number | null
     email: string
     phoneNumber: string
     firstname: string
     lastname: string
-    birthdate: Date | string | null
+    birthdate: any
 }

@@ -4,6 +4,7 @@ import Home from './Home';
 import ProductLOB from './ProductLOB';
 import loginStore from './store/LoginStore';
 import registerStore from './store/RegisterStore';
+import profileStore from './store/ProfileStore'
 
 // กำหนด store โดยเพิ่ม counterReducer เข้ามา
 const store = configureStore({
@@ -12,6 +13,7 @@ const store = configureStore({
     productLOB: ProductLOB,
     login: loginStore,
     register: registerStore,
+    profile: profileStore,
   },
 //   middleware: [thunk],
 });

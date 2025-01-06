@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import InputTextHover from '../components/Input/InputTextHover';
 import MainButton from '../components/Button/MainButton';
+//redux
 import { login } from '../redux/actions/AuthAction';
 import { RootState, AppDispatch } from '../redux/Store';
 
@@ -59,12 +60,12 @@ const Login: React.FC = () => {
                   <div className="flex-grow border-t-2 border-gray-200"></div>
                </div>
                <div className="text-md font-semibold text-center">
-                  Don't have an account?
+                  Don't have an account ?
                   <span
-                     className="text-18 text-btn-0071e3 cursor-pointer"
+                     className="text-18 text-primary cursor-pointer"
                      onClick={goToRegister}
                   >
-                     Sign up
+                     &nbsp; &nbsp; Sign up
                   </span>
                </div>
             </div>

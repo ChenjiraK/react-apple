@@ -8,6 +8,7 @@ type InputTextHoverProps = {
    isError?: boolean;
    errorMsg?: string;
    maxLength?:number;
+   value?: string;
    onChange: (value: string) => void;
 };
 
@@ -16,6 +17,7 @@ const InputTextHover: React.FC<InputTextHoverProps> = ({
    type = 'text',
    isError = false,
    errorMsg = '',
+   value = '',
    maxLength,
    onChange,
 }) => {
@@ -23,10 +25,13 @@ const InputTextHover: React.FC<InputTextHoverProps> = ({
    const [inputValue, setValue] = useState('');
    const [isErrorState, setErrorState] = useState<boolean>(isError);
 
-   // ใช้ useEffect เพื่อตรวจสอบการเปลี่ยนแปลงของ props
    useEffect(() => {
       setErrorState(isError);
-   }, [isError]); // ทำงานเมื่อ props เปลี่ยน
+   }, [isError]); // ทำงานเมื่อ props isError เปลี่ยน
+
+   useEffect(() => {
+      setValue(value)
+   }, [value]); // ทำงานเมื่อ props value เปลี่ยน
 
 
    function onChangeInput(e: React.ChangeEvent<HTMLInputElement>) {

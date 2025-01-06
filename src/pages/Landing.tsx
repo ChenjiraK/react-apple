@@ -105,21 +105,32 @@ const Landing : React.FC = () =>  {
         return (
             <div className='p-5'>
                 <div>
-                    <div className="grid grid-rows-2 grid-flow-col gap-4">
+                    <div className="grid grid-cols-1 sm:grid-rows-2 sm:grid-flow-col gap-4">
                         {highlightProduct1 &&
-                            <div className="row-span-2 h-602px">
+                            <div className="row-span-2 sm:max-h-602px">
                                 <CardThumbnailVertical item={highlightProduct1} />
                             </div>
                         }
                         {highlightProduct2 &&
-                            <div className="col-span-1 h-294px">
-                                <CardThumbnailHorizonLeft item={highlightProduct2} />
-                            </div>
+                            <>
+                                <div className="hidden sm:block col-span-1 max-h-294px">
+                                    <CardThumbnailHorizonLeft item={highlightProduct2} />
+                                </div>
+                                <div className='sm:hidden'>
+                                    <CardThumbnailVertical item={highlightProduct2} />
+                                </div>
+                            </>
                         }
                         {highlightProduct3 &&
-                            <div className="row-span-1 h-294px">
-                                <CardThumbnailHorizonLeft item={highlightProduct3} />
-                            </div>
+                            <>
+                                <div className="hidden sm:block row-span-1 max-h-294px">
+                                    <CardThumbnailHorizonLeft item={highlightProduct3} />
+                                </div>
+                                <div className='sm:hidden'>
+                                    <CardThumbnailVertical item={highlightProduct3} />
+                                </div>
+                            </>
+                            
                         }
                     </div>
                 </div>
@@ -173,8 +184,8 @@ const Landing : React.FC = () =>  {
     }
     const SupportLearnMore = () => {
         return (
-            <div className='flex justify-center py-6'>
-                <div className='flex justify-around w-main-page'>
+            <div className='flex justify-center'>
+                <div className='flex flex-col items-center sm:flex-row sm:justify-around w-main-page'>
                     {supports.map(item=> (
                         <IconWithContent key={item.id} item={item} />
                     ))}
@@ -215,11 +226,16 @@ const Landing : React.FC = () =>  {
     }
     const AssistantService = () => {
         return (
-            <div className='flex justify-center py-7'>
-                <div>
-                    {assists.map((item, index) =>(
-                        <div key={item.id} className="py-2">
-                            <SidemageWithContent posistionImage={ index % 2 === 0 ? 'left' : 'right' } item={item} />
+            <div className='flex justify-center py-7 px-4'>
+                <div className='w-main-page'>
+                    {assists.map((item:any, index:number) =>(
+                        <div key={item.id} className="py-3">
+                            <div className='hidden sm:block'>
+                                <SidemageWithContent posistionImage={ index % 2 === 0 ? 'left' : 'right' } item={item} />
+                            </div>
+                            <div className='sm:hidden flex justify-center'>
+                                <SidemageWithContent posistionImage='left' item={item} />
+                            </div>
                         </div>
                     ))}
                 </div>
@@ -268,15 +284,15 @@ const Landing : React.FC = () =>  {
                 <HightLightProduct />
             </div>
             <hr className='my-5'/>
-            <CyperWeekProduct />
+            {/* <CyperWeekProduct /> */}
             <hr className='my-5'/>
             <ViewInStoreClasses />
             <hr className='my-5'/>
-            <TrandInDevice />
+            {/* <TrandInDevice /> */}
             <hr className='my-5'/>
             <SupportLearnMore />
             <hr className='my-5'/>
-            {productApple && <AllThingsIpad />}
+            {/* {productApple && <AllThingsIpad />} */}
             
             <hr className='my-5'/>
             <AppleAccessories />
@@ -285,7 +301,7 @@ const Landing : React.FC = () =>  {
             <hr className='my-5'/>x
             <AppleCare />
             <hr className='my-5'/>
-            <QuickCheckout />
+            {/* <QuickCheckout /> */}
         </div>
     )
 }
