@@ -14,7 +14,7 @@ const Herder: React.FC = () => {
     navigator(path);
   };
   return (
-    <header className="flex sm:justify-center w-full text-sm bg-white border-b pb-5 px-4">
+    <header className="flex sm:justify-center w-full text-sm bg-white border-b pb-5 px-6">
       <div className="hidden sm:block w-main-page">
          <div className={'flex justify-center gap-4 h-24 p-3 items-center'}>
             <div>
