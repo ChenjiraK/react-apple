@@ -53,6 +53,9 @@ module.exports = {
         main: ["main"],
     },
     fontSize: {
+        '7px': '7px',
+        '9px': '9px',
+        '11px': '11px',
         10: ["0.625rem", "1.2"],
         12: ["0.75rem", "1.2"],
         14: ["0.875rem", "1.2"],

@@ -5,9 +5,9 @@ import { faChevronRight, faChevronLeft } from "@fortawesome/free-solid-svg-icons
 
 type SlideProps = {
     children: React.ReactNode;
-    positionCss?: string;
+    customHeightArrow?: string 
 };
-const Slide : React.FC<SlideProps> = ({ children, positionCss = '' }) => {
+const Slide : React.FC<SlideProps> = ({ children, customHeightArrow }) => {
     const {
         scrollRef,
         next,
@@ -18,7 +18,7 @@ const Slide : React.FC<SlideProps> = ({ children, positionCss = '' }) => {
     const [indexSlide, setIndexSlide] = useState(0);
     const [isCanNext, setIsCanNext] = useState(false);
     const [isCanPrev, setIsCanPrev] = useState(false);
-    const [elemHeight, setElemHeight] = useState(0);
+    const [elemHeight, setElemHeight] = useState('');
     const elemContentRef = useRef<HTMLDivElement | null>(null);
     const carouselElement = useRef<HTMLElement | null>(null); // ref instead scrollRef
 
@@ -30,11 +30,15 @@ const Slide : React.FC<SlideProps> = ({ children, positionCss = '' }) => {
     }, [scrollRef, activePageIndex, pages]);
 
     useEffect(() => {
-        if (elemContentRef.current) {
-          const height = elemContentRef.current.getBoundingClientRect().height;
-          setElemHeight(height);
+        if(customHeightArrow) {
+            setElemHeight(customHeightArrow);
+        } else {
+            if (elemContentRef.current) {
+                const height = elemContentRef.current.getBoundingClientRect().height;
+                setElemHeight(`${height}px`);
+            }
         }
-      }, []);
+      }, [elemContentRef, customHeightArrow]);
 
     const handleNext = () => {
         if (isCanNext) {
@@ -66,13 +70,8 @@ const Slide : React.FC<SlideProps> = ({ children, positionCss = '' }) => {
     }
   return (
     <div className='relative'>
-        <div ref={elemContentRef} className={`flex ${positionCss ? positionCss : 'justify-start'}`}>
+        <div ref={elemContentRef} className='flex'>
             <div className='w-slide'>
-                {/* <div
-                    className="flex overflow-x-auto hide-scroll py-6 w-slide"
-                    ref={scrollRef}>
-                        { children }
-                </div> */}
                 <div ref={(el) => {
                         scrollRef(el);
                         carouselElement.current = el;
@@ -81,12 +80,12 @@ const Slide : React.FC<SlideProps> = ({ children, positionCss = '' }) => {
                 </div>
             </div>
         </div>
-        <div className='absolute -left-1 top-0 bg-white' style={{ height: `${elemHeight}px` }}>
+        <div className='absolute -left-1 top-0 bg-white' style={{ height: elemHeight }}>
             <div className='h-full flex items-center'>
                 {isCanPrev && <ArrowSlideLeft />}
             </div>
         </div>
-        <div className='absolute right-0 top-0 bg-white' style={{ height: `${elemHeight}px` }}>
+        <div className='absolute right-0 top-0 bg-white' style={{ height: elemHeight }}>
             <div className='h-full flex items-center'>
                 {isCanNext && <ArrowSlideRight />}
             </div>

@@ -3,9 +3,10 @@ import React from "react";
 type BadgeLabelProps = {
     text: string | null;
     color: string;
+    textClass?: string;
 };
 
-const BadgeLabel: React.FC<BadgeLabelProps> = ({ text = '', color = '#bf4800' }) => {
+const BadgeLabel: React.FC<BadgeLabelProps> = ({ text = '', color = '#bf4800', textClass='text-xs' }) => {
     let badgeColor = color;
     if(!color) {
         badgeColor = '#bf4800'
@@ -14,7 +15,7 @@ const BadgeLabel: React.FC<BadgeLabelProps> = ({ text = '', color = '#bf4800' })
         color: `${badgeColor}`,
     };
     return (
-        <p className='text-xs font-semibold' style={colorStyle}>{text}</p>
+        <p className={`font-semibold ${textClass}`} style={colorStyle}>{text}</p>
     );
   };
   

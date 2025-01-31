@@ -2,8 +2,10 @@
 import ExampleCategories from '../../Json/ExampleCategories.json';
 import { CategoryListModel } from '../../model/CategoryModel';
 import MenuDropdown from '../Input/MenuDropdown';
+import { useNavigate } from 'react-router-dom';
 
 const TopbarMenu : React.FC = () => {
+    const navigator = useNavigate();
     const datas = ExampleCategories;
     const barMenu = datas.categories.map((item) => new CategoryListModel(item));
     const otherMenu = [
@@ -18,13 +20,16 @@ const TopbarMenu : React.FC = () => {
             route: ''
         },
     ]
+    function onClickMenuCategory() {
+        navigator('/view-all/mac');
+    }
     return(
        <div className="flex justify-between">
            {barMenu.map((bar: any) => (
                 <div key={`category_${bar.id}`}>
                     <MenuDropdown 
                         dropdownList={bar.subCategories} 
-                        onChangeItem={(item:any) => console.log(item)}
+                        onChangeItem={(item:any) => onClickMenuCategory()}
                         onClickDropdown={(item:any) => console.log(item)}
                     >
                         <p className="hover:underline hover:text-black">{bar.name}</p>

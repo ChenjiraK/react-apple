@@ -9,7 +9,7 @@ type InputTextHoverProps = {
    errorMsg?: string;
    maxLength?:number;
    value?: string;
-   onChange: (value: string) => void;
+   onChange?: (value: string) => void;
 };
 
 const InputTextHover: React.FC<InputTextHoverProps> = ({

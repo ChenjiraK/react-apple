@@ -54,6 +54,25 @@ export const productLOBStore = createSlice({
                 state.categories.push(new ProductModel(product).getDataApi());
             }
         },
+        //mock data
+        getCategoryLevel1: (state) => {
+            let productObj = {
+                image_src: "https://www.istudio.store/cdn/shop/files/FamilyStripe_MacBook_Air_13_in_m2_84x84_e6105e6a-b593-454a-8247-9ee12c3c1674.png?v=1697001540&width=84",
+                name: "MacBook Air",
+                price: 25000,
+                currency: '฿',
+                badges: [
+                    {
+                        "id": 1,
+                        "badge_label": "NEW",
+                        "badge_color": "#bf4800"
+                    }
+                ],
+            }
+            for(let i=0; i<10; i++) {
+                state.categories.push(new ProductModel(productObj).getDataApi());
+            }
+        },
 
         clearData: (state) => {
             state.productLOB = [];
@@ -62,5 +81,10 @@ export const productLOBStore = createSlice({
         }
     }
 })
-export const { getProductByType ,getCategoryType, clearData } = productLOBStore.actions;
+export const { 
+    getProductByType ,
+    getCategoryType, 
+    getCategoryLevel1,
+    clearData 
+} = productLOBStore.actions;
 export default productLOBStore.reducer;

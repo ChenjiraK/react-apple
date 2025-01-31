@@ -1,6 +1,10 @@
+import { IBadge } from './IBadge';
+
 export type IProduct = {
     id: string | number
     imgSrc: string
-    badgeLabel: string
-    badgeColor: string
+    price: number
+    name: string
+    currency: string
+    badges: IBadge[]
 }

@@ -1,16 +1,17 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 //component
-// import SlideCategory from '../components/SlideCategory';
+import SlideCategory from '../components/SlideCategory';
 import SlideBanner from "../components/SlideBanner";
 //redux
 import { useSelector, useDispatch } from 'react-redux';
-import { getProductByType, getCategoryType, clearData } from "../redux/ProductLOB";
+import { getProductByType, getCategoryLevel1, clearData } from "../redux/ProductLOB";
 import { AppDispatch, RootState } from '../redux/Store';
 
 function LOBPage() {
     const { slug } = useParams();
     const dispatch: AppDispatch = useDispatch();
+
     const { 
         banners,
         categories,
@@ -20,14 +21,12 @@ function LOBPage() {
     useEffect(() => {
         dispatch(clearData());
         dispatch(getProductByType({ type: slug }));
-        dispatch(getCategoryType({ type: slug }));
+        dispatch(getCategoryLevel1());
     }, [dispatch, slug]);
-
-    console.log(categories);
 
     return (
         <div>
-            {/* <SlideCategory categoryItems={categories} /> */}
+            <SlideCategory items={categories} />
             <SlideBanner bannerList={banners} />
         </div>
     )
